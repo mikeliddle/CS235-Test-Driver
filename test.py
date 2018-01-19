@@ -9,6 +9,7 @@ import shutil
 import logging
 import re
 from ConfigFile import ConfigFile
+from LogFile import LogFile
 
 log = logging.getLogger()
 
