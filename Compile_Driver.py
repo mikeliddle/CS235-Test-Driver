@@ -62,11 +62,16 @@ def run_student_code(lab_name, net_id, email, log_date):
         shutil.copy(ROOT_DIR + '/SubmissionDriver/compileCode.sh', 'compileCode.sh')
 
     # compile the code.
-    compile_code()
+    information_string = compile_code()
+    compile_file = open(net_id + '.' + lab_name + '.compile.out', 'w+')
+    compile_file.write(information_string)
+    compile_file.close()
 
     # send email
     if not DEBUG or WIN_DEBUG:
-        r = requests.post("https://students.cs.byu.edu/~cs235ta/emailEndpoint/emailTa.php", data={'email': email, 'subject': lab_name + ' Compile Results for ' + net_id, 'body': 'Your compilation results are attached.', 'compile': 'compileFile'})
+        r = requests.post("https://students.cs.byu.edu/~cs235ta/emailEndpoint/emailTa.php",
+                          data={'email': email, 'subject': lab_name + ' Compile Results for ' + net_id,
+                                'body': 'Your compilation results are attached.', 'compile': open(net_id + '.' + lab_name + '.compile.out', 'rb')})
 
         print("EMAIL STATUS CODE: " + str(r.status_code))
     else:
@@ -107,7 +112,8 @@ def submission_driver():
             print(os.getcwd() + '\n')
 
             if not WIN_DEBUG:
-                subprocess.call(['/usr/bin/unzip', '-o', '-qq', file_name, '-d', 'TMP_DELETE'], stdin=subprocess.DEVNULL)
+                subprocess.call(['/usr/bin/unzip', '-o', '-qq', file_name, '-d', 'TMP_DELETE'],
+                                stdin=subprocess.DEVNULL)
 
             run_student_code(lab, net_id, email, log_date)
 
