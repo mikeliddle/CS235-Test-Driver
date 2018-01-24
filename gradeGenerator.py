@@ -3,7 +3,6 @@
 import sys
 from LogFile import LogFile
 
-
 DEBUG = False
 
 

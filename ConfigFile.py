@@ -7,7 +7,6 @@ class ConfigFile(object):
         self.file_path = file_path
         self.file_object = open(file_path, 'r+')
         self.current_line = 0
-        self.log_file = ""
         self.log_file_path = ""
         self.live_dir = 0
         self.grade_log_file = 0
@@ -21,22 +20,15 @@ class ConfigFile(object):
     # end __init__
 
     def parse_config_file(self):
-        self.current_line = int(self.file_object.readline()[13:].strip('\n'))
+        self.file_object.seek(0)
+        current_line = self.file_object.readline()[13:].strip('\n')
+        self.current_line = int(current_line)
         self.log_file_path = self.file_object.readline()[9:].strip('\n')
-        self.log_file = open(self.log_file_path, 'r')
         self.live_dir = self.file_object.readline()[9:].strip('\n')
         self.grade_log_file = self.file_object.readline()[10:].strip('\n')
         self.out_file = self.file_object.readline()[9:].strip('\n')
 
-        # init log file:
-        i = 0
-        while i < self.current_line:
-            self.log_file.readLine()
-
     # end parse_config_file
-
-    def log_file(self):
-        return self.log_file
 
     def closed(self):
         self.file_object = open(self.file_path, 'r+')
@@ -51,6 +43,8 @@ class ConfigFile(object):
     def set_current_line(self, new_line):
         self.current_line = new_line
         self.write_file()
+
+    # set current_line
 
     def increment_current_line(self):
         self.current_line = self.current_line + 1
@@ -73,3 +67,42 @@ class ConfigFile(object):
         self.file_object.close()
 
     # end write_file
+
+    def __del__(self):
+        self.write_file()
+
+    # end __del__
+
+    def __delete__(self, instance):
+        self.write_file()
+
+    # end __delete__
+
+
+class LogFile(object):
+    def __init__(self, file_name):
+        self.file_path = file_name
+        self.file_contents = []
+        self.refresh()
+
+    # end __init__
+
+    def refresh(self):
+        self.file_contents = list(open(self.file_path, 'r'))
+
+    # end refresh
+
+    def get_line(self, index):
+        self.refresh()
+        return self.file_contents[index].split(',')
+
+    # end get_last_line
+
+    def check_last_line(self, compare_index):
+        self.refresh()
+        if compare_index < len(self.file_contents):
+            return len(self.file_contents)
+        else:
+            return 0
+
+    # end check_last_line
