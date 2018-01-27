@@ -1,0 +1,2 @@
+2018-01-11 17:20:54,igabe,L00,X,0,10,000000000,222202,kruth99,kendallruth99@gmail.com,"Include comments about partial credit here."
+2018-01-15 14:53:39,igabe,L00,X,0,8,000000000,121202,jordanrj,jordanrjenkins@outlook.com,"Include comments about partial credit here."

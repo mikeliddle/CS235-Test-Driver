@@ -1,0 +1,3 @@
+2018-01-10 23:07:17,Lab00,jpenner,0,X,(hello.zip),pennerj66@gmail.com,""
+2018-01-18 10:43:04,Lab01,jpenner,3,X,(grades.zip),pennerj66@gmail.com,""
+2018-01-18 10:49:33,Lab01,jpenner,3,X,(grades.zip),pennerj66@gmail.com,""

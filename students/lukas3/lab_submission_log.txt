@@ -1,0 +1,4 @@
+2018-01-10 19:46:58,Lab00,lukas3,.01666,V,(hello.zip),lukas.erekson@gmail.com,""
+2018-01-10 19:50:36,Lab00,lukas3,.0333333,V,(hello.zip),lukas.erekson@gmail.com,""
+2018-01-18 14:27:00,Lab01,lukas3,7,V,(grades.zip),lukas.erekson@gmail.com,""
+2018-01-18 14:30:19,Lab01,lukas3,7,V,(grades.zip),lukas.erekson@gmail.com,""

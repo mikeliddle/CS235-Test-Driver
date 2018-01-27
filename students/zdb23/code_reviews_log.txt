@@ -1,0 +1,2 @@
+2018-01-12 09:43:09,zdb23,L00,V,0,0,000000000,000000,afarmer8,farmer.alek@gmail.com,"Include comments about partial credit here."
+2018-01-12 14:05:52,zdb23,L00,V,0,9,000000000,222102,estyjh,jacobh.esty@gmail.com,"Include comments about partial credit here."

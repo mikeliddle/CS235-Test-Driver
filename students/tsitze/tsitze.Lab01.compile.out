@@ -1,0 +1,12 @@
+compiling files:
+./Source.cpp
+
+g++ -std=c++14 -Wall -g -o"run_me" *.cpp
+Source.cpp:16:21: warning: ISO C++11 requires whitespace after the macro name
+ #define VS_MEM_CHECK;
+                     ^
+Source.cpp: In function ‘void AverageScore(std::vector<std::vector<int> >, std::__cxx11::string**, std::__cxx11::string**, float**, float**, int**, float&, int, int)’:
+Source.cpp:20:6: warning: unused variable ‘numScores’ [-Wunused-variable]
+  int numScores = 5;
+      ^
+Compilation Succeeded!

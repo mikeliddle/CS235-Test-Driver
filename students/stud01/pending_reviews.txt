@@ -1,0 +1,2 @@
+stud01,2018-01-10,L00,blakep22,V,bnporter22@gmail.com
+stud01,2018-01-10,L00,ridgwell,X,JacobRidgwell@yahoo.com

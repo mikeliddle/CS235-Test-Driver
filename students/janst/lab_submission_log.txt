@@ -1,0 +1,5 @@
+2017-11-24 19:27:58,Lab01,janst,.1,V,(grades.zip),joshua.c4mpbell@gmail.com,""
+2017-12-26 16:31:58,Lab01,janst,5,V,(grades.zip),joshua.c4mpbell@gmail.com,""
+2017-12-26 17:11:05,Lab01,janst,5.5,V,(grades.zip),joshua.c4mpbell@gmail.com,""
+2018-01-09 10:57:36,Lab02,janst,15,V,(snap.zip),joshua.c4mpbell@gmail.com,""
+2018-01-09 10:58:14,Lab03,janst,15,V,(iterator.zip),joshua.c4mpbell@gmail.com,""

@@ -1,0 +1,6 @@
+2017-11-30 10:13:05,Lab01,jka21495,4.5,V,(grades.zip),jasonkurtanderson@gmail.com,""
+2017-12-07 12:51:35,Lab01,jka21495,2,V,(grades.zip),jasonkurtanderson@gmail.com,""
+2017-12-27 10:38:21,Lab02,jka21495,5,T,(snap.zip),jasonkurtanderson@gmail.com,""
+2017-12-27 10:39:53,Lab02,jka21495,5,V,(snap.zip),jasonkurtanderson@gmail.com,""
+2017-12-28 09:30:36,Lab03,jka21495,3,V,(iterator.zip),jasonkurtanderson@gmail.com,""
+2018-01-08 16:21:08,Lab01,jka21495,3,V,(grades.zip),jasonkurtanderson@gmail.com,""

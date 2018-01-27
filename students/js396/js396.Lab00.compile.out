@@ -1,0 +1,8 @@
+compiling files:
+./helloworld.cpp
+
+g++ -std=c++14 -Wall -g -o"run_me" *.cpp
+helloworld.cpp:9:21: warning: ISO C++11 requires whitespace after the macro name
+helloworld.cpp: In function ‘int main(int, char**)’:
+helloworld.cpp:21:7: warning: unused variable ‘leak’ [-Wunused-variable]
+Compilation Succeeded!

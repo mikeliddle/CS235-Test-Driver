@@ -1,0 +1,18 @@
+compiling files:
+./hello-world.cpp
+
+g++ -std=c++14 -Wall -g -o"run_me" *.cpp
+hello-world.cpp:8:21: warning: ISO C++11 requires whitespace after the macro name
+ #define VS_MEM_CHECK;
+                     ^
+hello-world.cpp:11:33: error: ‘::main’ must return ‘int’
+ void main(int argc, char* argv[])
+                                 ^
+hello-world.cpp: In function ‘int main(int, char**)’:
+hello-world.cpp:21:2: error: return-statement with no value, in function returning ‘int’ [-fpermissive]
+  return;
+  ^
+hello-world.cpp:20:7: warning: unused variable ‘leak’ [-Wunused-variable]
+  int* leak = new int;
+       ^
+Compilation Failed 0

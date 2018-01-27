@@ -1,0 +1,2 @@
+2018-01-10 12:39:53,Lab00,scraven4,0.25,V,(hello.zip),sam.craven@byu.net,""
+2018-01-10 13:06:05,Lab00,scraven4,sam.craven@byu.net,V,(hello.zip),sam.craven@byu.net,""

@@ -1,0 +1,2 @@
+2018-01-10 22:33:50,Lab00,tsitze,0,V,(hello.zip),texas.sitze@yahoo.com,""
+2018-01-13 10:04:50,Lab01,tsitze,8,V,(grades.zip),texas.sitze@yahoo.com,""

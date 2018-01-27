@@ -1,0 +1,6 @@
+2017-11-24 18:49:40,Lab01,mcox14,0.05,V,(grades.zip),machupicchu2014@gmail.com,""
+2017-12-20 21:06:04,Lab01,mcox14,4,V,(grades.zip),machupicchu2014@gmail.com,""
+2017-12-21 19:02:35,Lab01,mcox14,4,V,(grades.zip),machupicchu2014@gmail.com,""
+2017-12-21 19:09:41,Lab01,mcox14,4,V,(grades.zip),machupicchu2014@gmail.com,""
+2017-12-21 21:58:00,Lab02,mcox14,3,V,(snap.zip),machupicchu2014@gmail.com,""
+2017-12-22 15:56:55,Lab03,mcox14,4,V,(iterator.zip),machupicchu2014@gmail.com,""

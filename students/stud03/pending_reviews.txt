@@ -1,0 +1,2 @@
+stud03,2018-01-10,L00,bvarela2,V,ben.varela@me.com
+stud03,2018-01-10,L00,mlee10,V,yrameel98@gmail.com

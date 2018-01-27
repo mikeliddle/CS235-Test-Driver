@@ -1,0 +1,30 @@
+compiling files:
+./Cdh.cpp ./Course.cpp ./Cr.cpp ./Csg.cpp ./main.cpp ./School.cpp ./Snap.cpp
+
+g++ -std=c++14 -Wall -g -o"run_me" *.cpp
+Cdh.cpp: In constructor ‘Cdh::Cdh()’:
+Cdh.cpp:8:17: error: cannot call constructor ‘Cdh::Course’ directly [-fpermissive]
+  Course::Course();
+                 ^
+Cdh.cpp:8:17: note: for a function-style cast, remove the redundant ‘:Csg.cpp: InCsg.cpp: In constructor ‘Csg::Csg()’:
+Csg.cpp:8:17: error: cannot call constructor ‘Csg::Course’ directly [-fpermissive]
+  Course::Course();
+                 ^
+Csg.cpp:8:17: note: for a function-style cast, remove the redundant ‘:School.cpp:School.cpp: In member function ‘void School::importStrings(const std::vector<std::__cxx11::basic_string<char> >&)’:
+School.cpp:36:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < lines.size(); i++) {
+                    ^
+School.cpp:39:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j = 0; j < lines.at(i).length(); j++) {
+                     ^
+School.cpp: In member function ‘std::__cxx11::string School::processLine(std::__cxx11::string)’:
+School.cpp:59:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int j = 0; j < line.length(); j++) {
+                    ^
+School.cpp: In member function ‘void School::createObjects()’:
+School.cpp:268:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < vectors.size(); i++) {
+                    ^
+cc1plus: fatal error: Snap.cpp: No such file or directory
+compilation terminated.
+Compilation Failed 0

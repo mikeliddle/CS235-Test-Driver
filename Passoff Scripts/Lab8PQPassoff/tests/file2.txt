@@ -1,0 +1,6 @@
+read inputFiles/inputFile1.txt
+printEncoding
+read inputFiles/inputFile2.txt
+printEncoding
+read inputFiles/inputFile3.txt
+printEncoding

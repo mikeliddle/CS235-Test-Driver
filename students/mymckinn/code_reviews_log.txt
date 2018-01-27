@@ -1,0 +1,2 @@
+2018-01-11 21:25:49,mymckinn,L00,V,0,10,000000000,222202,heeyeonl,heeyeonl@byu.edu,"Include comments about partial credit here."
+2018-01-12 17:00:52,mymckinn,L00,V,0,10,000000000,222202,cwmmoon,moondude12@gmail.com,"You used a system(pause) when you shouldn't have. You should've had a debug marker at that point instead. Otherwise great job! Better than me. ) "

@@ -1,0 +1,2 @@
+2018-01-10 20:02:15,Lab00,goatesg,0,V,(hello.zip),grant@goatesfamily.com,""
+2018-01-15 12:23:54,Lab01,goatesg,5,V,(grades.zip),grant@goatesfamily.com,""

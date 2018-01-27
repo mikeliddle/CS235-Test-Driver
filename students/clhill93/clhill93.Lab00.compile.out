@@ -1,0 +1,5 @@
+compiling files:
+./Hello World Caleb Hill.cpp
+
+g++ -std=c++14 -Wall -g -o"run_me" *.cpp
+Compilation Succeeded!

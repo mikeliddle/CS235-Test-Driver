@@ -1,0 +1,9 @@
+compiling files:
+./Lab00_HelloWorld.cpp
+
+g++ -std=c++14 -Wall -g -o"run_me" *.cpp
+Lab00_HelloWorld.cpp: In function ‘int main(int, char**)’:
+Lab00_HelloWorld.cpp:21:10: warning: unused variable ‘leak’ [-Wunused-variable]
+     int* leak = new int;
+          ^
+Compilation Succeeded!

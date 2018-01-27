@@ -1,0 +1,2 @@
+2018-01-11 16:41:18,bucketkj,L00,V,0,10,000000000,222202,sputinc,scottjohnstun.personal@gmail.com,"Dr. Roper said not to use statements like system(pause). Also a memory leak was recorded by the macro this was supposed to be deleted with the statement delete leak after the int leak  new int statement."
+2018-01-12 13:16:19,bucketkj,L00,V,0,10,000000000,222202,jacson10,jacson10e@gmail.com,""

@@ -1,0 +1,15 @@
+read inputFiles/inputFile1.txt
+encode abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.
+encode Some ideas are so advanced they just take some time to get used to. J Mac Mcclellan
+encode The lack of wealth is easily repaired but the poverty of the soul is irreplaceable. Michel Montaigne
+encode You cannot strengthen the weak by weakening the strong you.  You cannot build character by taking away man's initiative.  You cannot help men permanently by doing for them what they could and should do for themselves.  Abraham Lincoln
+read inputFiles/inputFile2.txt
+encode abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.
+encode One is not born into the world to do everything but to do something.  Henry David Thoreau
+encode Anything worth dying for is certainly worth living for. Joseph Heller
+encode When you are imagining, you might as well imagine something worth while.  Lucy Maud Montgomery
+read inputFiles/inputFile3.txt
+encode abcdefghijklmnopqrstuvwxyzABCDEFGHIJLMNOPQRSTUVWY'.
+encode There is some good in this world, and it's worth fighting for.  J.R.R. Tolkein
+encode The sun beyond the mountains glows; The Yellow River seawards flows.  You can enjoy a grander sight, by climbing to a greater height.  Wang zhihuan
+encode Beside my bed a pool of light- Is it hoarfrost on the ground? I lift my eyes and see the moon, I bend my head and think of home.  Li Bai

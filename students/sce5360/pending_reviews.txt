@@ -1,0 +1,2 @@
+sce5360,2017-11-24,L01,stud06,X,proper@cs.byu.edu
+sce5360,2017-11-24,L01,stud08,X,proper@cs.byu.edu

@@ -1,0 +1,2 @@
+2018-01-11 18:09:55,stud10,L00,V,0,10,000000000,222202,kjbrown,pinkfruity@gmail.com,"This is where I'd put comments about partial credit if there were any. But there aren't. So . . . enjoy the 100 that doesn't affect your grade whatsoever."
+2018-01-11 21:16:05,stud10,L00,V,0,10,000000000,222202,bubbabjh,braden.huffman99@gmail.com,"You forgot to delete the pointer but its just a test lab so it doesn't matter."

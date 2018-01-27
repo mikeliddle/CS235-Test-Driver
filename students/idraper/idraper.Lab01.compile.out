@@ -1,0 +1,71 @@
+compiling files:
+./Source.cpp
+
+g++ -std=c++14 -Wall -g -o"run_me" *.cpp
+Source.cpp: In function ‘const int determineLetterGrade(int, double)’:
+Source.cpp:209:21: error: call of overloaded ‘abs(double)’ is ambiguous
+  if (abs(score - avg) >= 15)
+                     ^
+In file included from /usr/include/c++/5/cstdlib:72:0,
+                 from /usr/include/c++/5/ext/string_conversions.h:41,
+                 from /usr/include/c++/5/bits/basic_string.h:5249,
+                 from /usr/include/c++/5/string:52,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from Source.cpp:6:
+/usr/include/stdlib.h:774:12: note: candidate: int abs(int)
+ extern int abs (int __x) __THROW __attribute__ ((__const__)) __wur;
+            ^
+In file included from /usr/include/c++/5/ext/string_conversions.h:41:0,
+                 from /usr/include/c++/5/bits/basic_string.h:5249,
+                 from /usr/include/c++/5/string:52,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from Source.cpp:6:
+/usr/include/c++/5/cstdlib:174:3: note: candidate: long long int std::abs(long long int)
+   abs(long long __x) { return __builtin_llabs (__x); }
+   ^
+/usr/include/c++/5/cstdlib:166:3: note: candidate: long int std::abs(long int)
+   abs(long __i) { return __builtin_labs(__i); }
+   ^
+Source.cpp:220:26: error: call of overloaded ‘abs(double)’ is ambiguous
+  else if (abs(score - avg) > 5)
+                          ^
+In file included from /usr/include/c++/5/cstdlib:72:0,
+                 from /usr/include/c++/5/ext/string_conversions.h:41,
+                 from /usr/include/c++/5/bits/basic_string.h:5249,
+                 from /usr/include/c++/5/string:52,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from Source.cpp:6:
+/usr/include/stdlib.h:774:12: note: candidate: int abs(int)
+ extern int abs (int __x) __THROW __attribute__ ((__const__)) __wur;
+            ^
+In file included from /usr/include/c++/5/ext/string_conversions.h:41:0,
+                 from /usr/include/c++/5/bits/basic_string.h:5249,
+                 from /usr/include/c++/5/string:52,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from Source.cpp:6:
+/usr/include/c++/5/cstdlib:174:3: note: candidate: long long int std::abs(long long int)
+   abs(long long __x) { return __builtin_llabs (__x); }
+   ^
+/usr/include/c++/5/cstdlib:166:3: note: candidate: long int std::abs(long int)
+   abs(long __i) { return __builtin_labs(__i); }
+   ^
+Source.cpp:235:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Compilation Failed 0

@@ -1,0 +1,2 @@
+2018-01-11 16:43:39,slee118,L00,V,0,10,000000000,222202,jes0613,jes06137@gmail.com,"Include comments about partial credit here."
+2018-01-12 10:20:32,slee118,L00,V,0,0,000000000,000000,benmur96,murraybp64@gmail.com,"Incorrect submission method only visual studio solution presented thus the code would not load."

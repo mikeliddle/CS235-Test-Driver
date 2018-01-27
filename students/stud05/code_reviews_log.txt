@@ -1,0 +1,3 @@
+2018-01-10 14:14:14,stud05,L00,V,0,0,000000000,000000,stud01,cs142waiver@cs.byu.edu,"Include comments about partial credit here."
+2018-01-11 17:01:28,stud05,L00,V,0,10,000000000,222202,chansen0,chris.d.hansen86@gmail.com,"Include comments about partial credit here."
+2018-01-12 00:16:45,stud05,L00,V,0,10,000000000,222202,campatt,cameron.patterson15@gmail.com,"It detected memory leaks."

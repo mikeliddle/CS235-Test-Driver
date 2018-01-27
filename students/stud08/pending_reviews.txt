@@ -1,0 +1,2 @@
+stud08,2018-01-10,L00,dtebbs2,V,dhtebbs@gmail.com
+stud08,2018-01-10,L00,stud01,V,proper@cs.byu.edu

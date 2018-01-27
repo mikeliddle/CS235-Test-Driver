@@ -1,0 +1,6 @@
+2018-01-11 11:49:00,Lab00,jarom77,0,V,(hello.zip),jarom.christensen@byu.net,""
+2018-01-11 11:50:10,Lab00,jarom77,0,V,(hello.zip),jarom.christensen@byu.net,""
+2018-01-11 11:51:50,Lab00,jarom77,0,V,(hello.zip),jarom.christensen@byu.net,""
+2018-01-11 11:53:07,Lab00,jarom77,0,V,(hello.zip),jarom.christensen@byu.net,""
+2018-01-11 11:56:07,Lab00,jarom77,.25,V,(hello.zip),jarom.christensen@byu.net,""
+2018-01-11 11:56:51,Lab00,jarom77,.25,V,(hello.zip),jarom.christensen@byu.net,""
