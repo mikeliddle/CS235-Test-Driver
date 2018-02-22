@@ -13,18 +13,18 @@ from ConfigFile import LogFile
 DEBUG = True
 WIN_DEBUG = True
 
-ROOT_DIR = 'path'
+ROOT_DIR = '/users/groups/cs235ta/submission_driver/'
 
 if WIN_DEBUG:
-    ROOT_DIR = 'path'
+    ROOT_DIR = 'C:\\users\\malid\\workspace\\CS235\\'
 
-config_file_object = ConfigFile(ROOT_DIR + 'compiler_global.cfg')
+config_file_object = ConfigFile(ROOT_DIR + 'compiler_global3.cfg')
 
 email_log_file = ROOT_DIR + 'logs/email_log_file.out'
-grade_log_file = ROOT_DIR + 'logs/autogrades.out'
+grade_log_file = ROOT_DIR + 'logs/W2018_autogrades.out'
 error_log_file = ROOT_DIR + 'logs/Python_errors.out'
 debug_log_file = ROOT_DIR + 'logs/Python_debug.out'
-compile_log_file = ROOT_DIR + 'logs/compile.out'
+compile_log_file = ROOT_DIR + 'logs/W2018_compile.out'
 
 
 def compile_code(lab_name, net_id, email, log_date):
@@ -81,12 +81,12 @@ def run_student_code(lab_name, net_id, email, log_date):
         subject = 'Compilation Failed - ' + lab_name + ' - ' + net_id
 
     if DEBUG:
-        email = 'test@company.com'
+        email = 'maliddle96@gmail.com'
 
     email_data = {'email': email, 'subject': subject, 'body': 'Your compilation results are attached.'}
     email_files = {'compile': open(net_id + '.' + lab_name + '.compile.out', 'rb')}
 
-    r = requests.post("endpoint.php", data=email_data,
+    r = requests.post("https://students.cs.byu.edu/~cs235ta/emailEndpoint/dummy.php", data=email_data,
                       files=email_files)
 
     # send email

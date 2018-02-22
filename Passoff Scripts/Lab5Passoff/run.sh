@@ -9,8 +9,7 @@ VERSION="-std=c++14"
 FLAGS="-g -Wall"
 
 MAIN="main.cpp"
-cp PathfinderInterface.h src
-
+cp ExpressionManagerInterface.h src
 if [[ -e $MAIN ]];
 then
     cp $MAIN src/
@@ -49,10 +48,6 @@ echo "--------"
 for f in tests/file*.txt;
 do
     f=${f#tests/}
-    if [ $f == $"file5.txt" ];
-    then
-        break;
-    fi
     sdiff -s --strip-trailing-cr keys/key_$f output/out_$f > diffs/diff_$f
     if [ ${PIPESTATUS[0]} -eq 0 ];
     then
@@ -61,21 +56,8 @@ do
         echo "key_$f and out_$f differ :: check diffs/diff_$f for details"
     fi
 done
-echo "--------
+echo "--------"
 
-"
-
-while true;
-do
-    read -p "Would you like to view Out_File5.txt in vim? [Y/N]?
-Hint: Type ':q' then enter when you're done in vim. 
-" n
-    case $n in
-        [Nn]* ) echo "Don't forget to check the random mazes!"; break;;
-        [Yy]* ) echo "Opening Out_File5.txt."; vi output/out_file5.txt; break;;
-        * ) echo "Please answer Y or N.";;
-    esac
-done
 echo ""
 while true;
 do

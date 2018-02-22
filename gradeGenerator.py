@@ -9,11 +9,11 @@ DEBUG = False
 class ClassGrades:
     def __init__(self, lab_name):
         self.lab_name = lab_name
-        self.LOG_DIR = '/users/groups/cs235ta/public_html/W2018_submissions/'
-        self.LOG_FILE = self.LOG_DIR + 'W2018_completed_reviews_log.txt'
+        self.LOG_DIR = '/path'
+        self.LOG_FILE = self.LOG_DIR + 'completed_reviews_log.txt'
 
         if DEBUG:
-            self.LOG_FILE = 'W2018_code_reviews_log.txt'
+            self.LOG_FILE = 'code_reviews_log.txt'
 
         self.log_object = LogFile(self.LOG_FILE)
 

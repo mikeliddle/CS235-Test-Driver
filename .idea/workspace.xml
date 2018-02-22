@@ -1,7 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20ee0d1c-034f-46d4-9170-40ab41048bde" name="Default" comment="" />
+    <list default="true" id="20ee0d1c-034f-46d4-9170-40ab41048bde" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Smart_Diff/SmartDiff.py" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Compile_Driver.py" afterPath="$PROJECT_DIR$/Compile_Driver.py" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/.directory" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/.directory" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/ArenaInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/FighterInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/keys/key_file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/keys/key_file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/keys/key_file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/keys/key_file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/keys/key_file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/lab1_main.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/tests/file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/tests/file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/tests/file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/tests/file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab1Passoff/tests/file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/.directory" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/LinkedListInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/keys/key_file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/keys/key_file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/keys/key_file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/keys/key_file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/keys/key_file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/lab2_main.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/tests/file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/tests/file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/tests/file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/tests/file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab2Passoff/tests/file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/ExpressionManagerInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/keys/key_file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/keys/key_file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/keys/key_file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/keys/key_file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/keys/key_file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/main.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/tests/file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/tests/file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/tests/file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/tests/file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab3Passoff/tests/file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab4Passoff/Docs/Lab4TheRailroadStation.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab4Passoff/Docs/welcome_train.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab4Passoff/Grade.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab4Passoff/StationInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab4Passoff/StationInterfaceExtra.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/PathfinderInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/diffs/diff_file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/diffs/diff_file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/diffs/diff_file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/diffs/diff_file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/keys/key_file1.txt" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/keys/key_file1.txt" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/keys/key_file2.txt" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/keys/key_file2.txt" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/keys/key_file3.txt" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/keys/key_file3.txt" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/keys/key_file4.txt" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/keys/key_file4.txt" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/main.cpp" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/main.cpp" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/output/out_file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/output/out_file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/output/out_file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/output/out_file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/output/out_file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/run.sh" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/run.sh" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Invalid1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Invalid2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Invalid3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Invalid4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Invalid5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Solvable1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Solvable2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Solvable3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Unsolvable1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Unsolvable2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/src/Mazes/Unsolvable3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Invalid1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Invalid2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Invalid3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Invalid4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Invalid5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Solvable1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Solvable2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Solvable3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Unsolvable1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Unsolvable2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/Mazes/Unsolvable3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/file1.txt" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/file1.txt" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/file2.txt" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/file2.txt" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/file3.txt" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/file3.txt" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/file4.txt" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/file4.txt" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/file5.txt" afterPath="$PROJECT_DIR$/Passoff Scripts/Lab5Passoff/tests/file5.txt" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/BSTInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/NodeInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/keys/key_file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/keys/key_file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/keys/key_file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/keys/key_file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/keys/key_file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/main.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/tests/file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/tests/file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/tests/file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/tests/file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/tests/file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab6Passoff/tests/program" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/AVLInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/NodeInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/keys/key_file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/keys/key_file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/keys/key_file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/keys/key_file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/keys/key_file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/main.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/tests/file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/tests/file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/tests/file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/tests/file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab7Passoff/tests/file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/HuffmanInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/NodeInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/TreeInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/keys/key_file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/keys/key_file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/keys/key_file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/keys/key_file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/main.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/tests/file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/tests/file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/tests/file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/tests/file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/tests/inputFiles/inputFile1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/tests/inputFiles/inputFile2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab8PQPassoff/tests/inputFiles/inputFile3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/QSInterface.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/keys/key_file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/keys/key_file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/keys/key_file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/keys/key_file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/keys/key_file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/main.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/tests/file1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/tests/file2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/tests/file3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/tests/file4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/tests/file5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Passoff Scripts/Lab9Passoff/tests/program" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,76 +175,123 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CS235$SmartDiff.coverage" NAME="SmartDiff Coverage Results" MODIFIED="1517611931130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Smart_Diff" />
+    <SUITE FILE_PATH="coverage/CS235$Compile_Driver.coverage" NAME="Compile_Driver Coverage Results" MODIFIED="1518050796326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS235$test.coverage" NAME="test Coverage Results" MODIFIED="1516832027298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ConfigFile.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ConfigFile.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1751">
-                  <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LogFile.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/LogFile.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="W2018_lab_submission_log.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/W2018_lab_submission_log.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5729">
-                  <caret line="337" column="70" lean-forward="false" selection-start-line="337" selection-start-column="70" selection-end-line="337" selection-end-column="70" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Compile_Driver.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Compile_Driver.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="575">
-                  <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#69#86#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="compiler_global2.cfg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/compiler_global2.cfg">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SmartDiff.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2363">
+              <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Compile_Driver.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Compile_Driver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="61" column="60" lean-forward="false" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+              <folding>
+                <element signature="e#69#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="W2018_lab_submission_log.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/W2018_lab_submission_log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="65" lean-forward="false" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigFile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConfigFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compiler_global3.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compiler_global3.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogFile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LogFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradeGenerator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradeGenerator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="key_file1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smart_Diff/key_file1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="key_file2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smart_Diff/key_file2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>email</find>
+      <find>Tokens.Tokens</find>
+      <find>log_entry</find>
+      <find>log.</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Tokens</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,6 +304,10 @@
         <option value="$PROJECT_DIR$/W2018_lab_submission_log.txt" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/compiler_global2.cfg" />
+        <option value="$PROJECT_DIR$/Passoff Scripts/Lab4Passoff/keys/key_file2.txt" />
+        <option value="$PROJECT_DIR$/Passoff Scripts/Lab4Passoff/keys/key_file1.txt" />
+        <option value="$PROJECT_DIR$/Smart_Diff/SmartDiff.py" />
+        <option value="$PROJECT_DIR$/compiler_global3.cfg" />
         <option value="$PROJECT_DIR$/Compile_Driver.py" />
       </list>
     </option>
@@ -104,7 +320,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1422" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -122,7 +338,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,11 +345,17 @@
               <item name="CS235" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS235" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CS235" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS235" type="462c0819:PsiDirectoryNode" />
+              <item name="Passoff Scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,6 +363,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\malid\workspace\CS235" />
+      <recent name="C:\Users\malid\workspace\CS235\Smart_Diff" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,7 +382,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Compile_Driver">
+    <configuration name="Compile_Driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CS235" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Compile_Driver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="SmartDiff" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Smart_Diff" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CS235" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Smart_Diff/SmartDiff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,9 +440,16 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SmartDiff" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Compile_Driver" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.Compile_Driver" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SmartDiff" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -198,27 +470,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1422" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12848751" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22647703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2788145" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27934784" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -234,34 +505,188 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Compile_Driver.py</url>
-          <line>88</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Compile_Driver.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Compile_Driver.py</url>
-          <line>111</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Compile_Driver.py</url>
-          <line>117</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Compile_Driver.py</url>
-          <line>37</line>
+          <line>45</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py</url>
+          <line>171</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Compile_Driver.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Compile_Driver.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/key_file2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compile_Driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+          <folding>
+            <element signature="e#69#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/key_file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/key_file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compile_Driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+          <folding>
+            <element signature="e#69#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/key_file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ConfigFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1751">
@@ -274,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5729">
           <caret line="337" column="70" lean-forward="false" selection-start-line="337" selection-start-column="70" selection-end-line="337" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -282,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -300,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -316,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5729">
           <caret line="337" column="70" lean-forward="false" selection-start-line="337" selection-start-column="70" selection-end-line="337" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -324,7 +745,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compile_Driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#69#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler_global2.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W2018_lab_submission_log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5729">
+          <caret line="337" column="70" lean-forward="false" selection-start-line="337" selection-start-column="70" selection-end-line="337" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -342,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -358,14 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradeGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -373,14 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConfigFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -402,33 +844,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passoff Scripts/Lab4Passoff/keys/key_file2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passoff Scripts/Lab4Passoff/keys/key_file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/SmartDiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Compile_Driver.py">
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/key_file2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-          <folding>
-            <element signature="e#69#86#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/W2018_lab_submission_log.txt">
+    <entry file="file://$PROJECT_DIR$/Smart_Diff/key_file1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5729">
-          <caret line="337" column="70" lean-forward="false" selection-start-line="337" selection-start-column="70" selection-end-line="337" selection-end-column="70" />
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LogFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradeGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/ssl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="633" column="0" lean-forward="false" selection-start-line="633" selection-start-column="0" selection-end-line="633" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W2018_lab_submission_log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="65" lean-forward="false" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler_global3.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compile_Driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="61" column="60" lean-forward="false" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+          <folding>
+            <element signature="e#69#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

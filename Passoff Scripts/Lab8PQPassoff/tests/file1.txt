@@ -1,6 +1,0 @@
-read inputFiles/inputFile1.txt
-printTree
-read inputFiles/inputFile2.txt
-printTree
-read inputFiles/inputFile3.txt
-printTree

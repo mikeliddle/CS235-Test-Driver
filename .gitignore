@@ -6,7 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# IDE
+.vscode/
+
 # Distribution / packaging
+__pycache__
 .Python
 env/
 build/
@@ -99,3 +103,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+students/*
+Passof*
