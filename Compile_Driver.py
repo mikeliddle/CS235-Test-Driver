@@ -21,10 +21,10 @@ if WIN_DEBUG:
 config_file_object = ConfigFile(ROOT_DIR + 'compiler_global.cfg')
 
 email_log_file = ROOT_DIR + 'logs/email_log_file.out'
-grade_log_file = ROOT_DIR + 'logs/autogrades.out'
+grade_log_file = ROOT_DIR + 'logs/W2018_autogrades.out'
 error_log_file = ROOT_DIR + 'logs/Python_errors.out'
 debug_log_file = ROOT_DIR + 'logs/Python_debug.out'
-compile_log_file = ROOT_DIR + 'logs/compile.out'
+compile_log_file = ROOT_DIR + 'logs/W2018_compile.out'
 
 
 def compile_code(lab_name, net_id, email, log_date):
@@ -57,7 +57,7 @@ def compile_code(lab_name, net_id, email, log_date):
             information_string += 'Compilation Failed!\n'
 
         with open(compile_log_file, 'a+') as compile_log:
-            compile_log.write(','.join([log_date, lab_name, net_id, email, p.returncode]))
+            compile_log.write(','.join([log_date, lab_name, net_id, email, str(p.returncode)]) + '\n')
     else:
         information_string += 'Compilation Not Performed.\n'
 
@@ -81,7 +81,7 @@ def run_student_code(lab_name, net_id, email, log_date):
         subject = 'Compilation Failed - ' + lab_name + ' - ' + net_id
 
     if DEBUG:
-        email = 'test@company.com'
+        email = 'test@company.com' # don't want to pester students with debugging emails.
 
     email_data = {'email': email, 'subject': subject, 'body': 'Your compilation results are attached.'}
     email_files = {'compile': open(net_id + '.' + lab_name + '.compile.out', 'rb')}
@@ -117,7 +117,7 @@ def submission_driver():
 
                 if DEBUG:
                     with open(debug_log_file, 'a+') as debug_file:
-                        debug_file.write("log_entry: " + ','.join(log_entry) + '\n')
+                        debug_file.write('log_entry: ' + ','.join(log_entry) + '\n')
 
                 config_file_object.increment_current_line()
 
@@ -151,7 +151,7 @@ def submission_driver():
 
                 run_student_code(lab, net_id, email, log_date)
         except KeyboardInterrupt:
-            exit(0) # Let Ctrl+c kill it.
+            exit(0)
         except Exception as error:
             # log any error messages.
             with open(error_log_file, 'a+') as error_log:
