@@ -31,11 +31,13 @@ def compile_code(lab_name, net_id, email, log_date):
     exe_name = 'run_me'
     information_string = 'compiling files:\n'
 
-    all_files = [f for f in os.listdir('.') if os.path.isfile(f) and re.search('cpp', f)]
+    all_files = [f for f in os.listdir(
+        '.') if os.path.isfile(f) and re.search('cpp', f)]
     if len(all_files) < 1:
         information_string += 'No valid files detected!' + '\n'
 
-    compile_command = ['/usr/bin/g++', '-g', '-Wall', '-std=c++17', '-o', exe_name]
+    compile_command = ['/usr/bin/g++', '-g',
+                       '-Wall', '-std=c++17', '-o', exe_name]
     for file in all_files:
         information_string += file + '\n'
         compile_command.append(file)
@@ -43,7 +45,8 @@ def compile_code(lab_name, net_id, email, log_date):
     information_string += '\ng++ -g -Wall -std=c++17 -o ' + exe_name + ' *.cpp' + '\n'
 
     if not WIN_DEBUG:
-        p = subprocess.run(compile_command, stderr=subprocess.PIPE, stdout=subprocess.PIPE)
+        p = subprocess.run(
+            compile_command, stderr=subprocess.PIPE, stdout=subprocess.PIPE)
 
         if not DEBUG:
             grade = p.stdout.decode('utf-8')
@@ -57,7 +60,8 @@ def compile_code(lab_name, net_id, email, log_date):
             information_string += 'Compilation Failed!\n'
 
         with open(compile_log_file, 'a+') as compile_log:
-            compile_log.write(','.join([log_date, lab_name, net_id, email, str(p.returncode)]) + '\n')
+            compile_log.write(
+                ','.join([log_date, lab_name, net_id, email, str(p.returncode)]) + '\n')
     else:
         information_string += 'Compilation Not Performed.\n'
 
@@ -71,9 +75,11 @@ def run_student_code(lab_name, net_id, email, log_date):
 
     # compile the code.
     information_string = compile_code(lab_name, net_id, email, log_date)
-    compile_file = open(net_id + '.' + lab_name + '.compile.out', 'w+')
+    compile_file_name = net_id + '.' + lab_name + '.compile.out'
+    compile_file = open(compile_file_name, 'w+')
     compile_file.write(information_string)
     compile_file.close()
+    shutil.move(compile_file_name, '../' + compile_file_name)
 
     if 'Compilation Succeeded' in information_string:
         subject = 'Compilation Succeeded - ' + lab_name + ' - ' + net_id
@@ -81,10 +87,13 @@ def run_student_code(lab_name, net_id, email, log_date):
         subject = 'Compilation Failed - ' + lab_name + ' - ' + net_id
 
     if DEBUG:
-        email = 'test@company.com' # don't want to pester students with debugging emails.
+        # don't want to pester students with debugging emails.
+        email = 'test@company.com'
 
-    email_data = {'email': email, 'subject': subject, 'body': 'Your compilation results are attached.'}
-    email_files = {'compile': open(net_id + '.' + lab_name + '.compile.out', 'rb')}
+    email_data = {'email': email, 'subject': subject,
+                  'body': 'Your compilation results are attached.'}
+    email_files = {'compile': open(
+        net_id + '.' + lab_name + '.compile.out', 'rb')}
 
     r = requests.post("endpoint.php", data=email_data,
                       files=email_files)
@@ -92,7 +101,8 @@ def run_student_code(lab_name, net_id, email, log_date):
     # send email
     if not DEBUG:
         with open(email_log_file, 'a+') as email_file:
-            log_entry_list = (log_date, net_id, email, lab_name, str(r.status_code))
+            log_entry_list = (log_date, net_id, email,
+                              lab_name, str(r.status_code))
             email_file.write(','.join(log_entry_list) + '\n')
 
     else:
@@ -117,7 +127,8 @@ def submission_driver():
 
                 if DEBUG:
                     with open(debug_log_file, 'a+') as debug_file:
-                        debug_file.write('log_entry: ' + ','.join(log_entry) + '\n')
+                        debug_file.write(
+                            'log_entry: ' + ','.join(log_entry) + '\n')
 
                 config_file_object.increment_current_line()
 
@@ -142,7 +153,7 @@ def submission_driver():
                     with open(debug_log_file, 'a+') as debug_file:
                         debug_file.write(str(os.getcwd()) + '\n')
 
-                if not WIN_DEBUG: # unzip doesn't exist on Windows systems.
+                if not WIN_DEBUG:  # unzip doesn't exist on Windows systems.
                     subprocess.call(['/usr/bin/unzip', '-o', '-qq', file_name, '-d', 'TMP_DELETE'],
                                     stdin=subprocess.DEVNULL)
                 else:
