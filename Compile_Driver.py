@@ -29,10 +29,23 @@ compile_log_file = ROOT_DIR + 'logs/W2018_compile.out'
 
 def compile_code(lab_name, net_id, email, log_date):
     exe_name = 'run_me'
-    information_string = 'compiling files:\n'
+    information_string = ""
+    information_string += 'compiling files:\n'
 
-    all_files = [f for f in os.listdir(
-        '.') if os.path.isfile(f) and re.search('cpp', f)]
+    all_files = []
+    for f in os.listdir('.'):
+        if os.path.isfile(f) and re.search('cpp', f):
+            p = subprocess.run(['/usr/bin/file', '-i', f],
+                               stdout=subprocess.PIPE)
+            file_info = p.stdout.decode('utf-8').split(":")
+            file_info = file_info[1].split(";")
+            file_info = file_info[1].split("=")
+            if file_info[1].strip() == "us-ascii":
+                all_files.append(f)
+            else:
+                information_string += 'invalid file encoding: ' + \
+                    file_info[1] + '\n'
+
     if len(all_files) < 1:
         information_string += 'No valid files detected!' + '\n'
 
@@ -79,7 +92,7 @@ def run_student_code(lab_name, net_id, email, log_date):
     compile_file = open(compile_file_name, 'w+')
     compile_file.write(information_string)
     compile_file.close()
-    shutil.move(compile_file_name, '../' + compile_file_name)
+    shutil.copy(compile_file_name, '../' + compile_file_name)
 
     if 'Compilation Succeeded' in information_string:
         subject = 'Compilation Succeeded - ' + lab_name + ' - ' + net_id
@@ -90,8 +103,9 @@ def run_student_code(lab_name, net_id, email, log_date):
         # don't want to pester students with debugging emails.
         email = 'test@company.com'
 
-    email_data = {'email': email, 'subject': subject,
-                  'body': 'Your compilation results are attached.'}
+    body = 'UPDATES: the autocompiler now enforces file encoding to be utf-8 ascii encoding. If you do not get an attachment with your email, please contact a TA.  If your attachment says, "invalid file encoding" please verify the encoding of the files by extracting them from the zip archive you created and then checking their encoding before talking to a TA.  \n\nYour compilation results are attached.'
+
+    email_data = {'email': email, 'subject': subject, 'body': body}
     email_files = {'compile': open(
         net_id + '.' + lab_name + '.compile.out', 'rb')}
 
