@@ -13,7 +13,7 @@ class Simple_Token(State):
         input_string = ''
         input_string = str(self.input[self.index])
 
-        if input_string[0].isalpha():
+        if str(input_string[0]).isalpha():
             input_string = self.get_string_value()
 
         input_string = self.get_string_if_colon(input_string)
@@ -47,7 +47,7 @@ class Simple_Token(State):
         return input_string
 
     def get_end_index(self, i):
-        while self.input[i].isalpha():
+        while str(self.input[i]).isalpha():
             i += 1
         return i
 
@@ -70,14 +70,36 @@ class Simple_Token(State):
             return MULTIPLY
         elif value is "+":
             return ADD
-        elif value is "Schemes":
-            return SCHEMES
-        elif value is "Facts":
-            return FACTS
-        elif value is "Rules":
-            return RULES
-        elif value is "Queries":
-            return QUERIES
+        elif value is "main":
+            return MAIN
+        elif value is "int":
+            return INT
+        elif value is "function":
+            return FUNCTION
+        elif value is "class":
+            return CLASS
+        elif value is "void":
+            return VOID
+        elif value is "const":
+            return CONST
+        elif value is "return":
+            return RETURN
+        elif value is "float":
+            return FLOAT
+        elif value is "double":
+            return DOUBLE
+        elif value is "namespace":
+            return NAMESPACE
+        elif value is "std":
+            return STD
+        elif value is "string":
+            return STRING
+        elif value is "char":
+            return CHAR
+        elif value is "unsigned":
+            return UNSIGNED
+        elif value is "static":
+            return STATIC
         elif value is " ":
             return WHITESPACE
         elif value is "\n":

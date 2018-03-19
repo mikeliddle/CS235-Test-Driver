@@ -10,8 +10,14 @@ class Token(object):
     def set_type(self, l_type):
         self.type = l_type
     
+    def get_type(self):
+        return self.type
+    
     def set_value(self, value):
         self.value = value
+    
+    def get_value(self):
+        return self.value
 
     def get_line_count(self):
         return self.line_count

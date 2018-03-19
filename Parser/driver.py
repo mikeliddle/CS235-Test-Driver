@@ -2,21 +2,24 @@ from Lexer import Lexer
 from Parser import Parser
 
 def main(file_name):
-    if fileNotValid(file_name):
+    try:
+        fileNotValid(file_name)
+    except:
         print("INVALID FILE!")
         return 1
 
     lexer = Lexer()
     if file_name is not "":
         lexer.analyze_file(file_name)
-        parser = Parser(lexer.get_tokens)
+        for token in lexer.get_tokens():
+             print(token.get_value())
+        print("done")
+        # parser = Parser(lexer.get_tokens)
 
 
 def fileNotValid(file):
-    l_file = open(file, 'r')
+    with open(file, 'r') as f:
+        return False
+    return True
 
-    if l_file.closed:
-        return True
-
-    l_file.close()
-    return False
+main("main.cpp")

@@ -24,7 +24,7 @@ class Id_State(State):
         return value
 
     def get_token(self):
-        if not self.input[self.index].isalpha():
+        if not str(self.input[self.index]).isalpha():
             return self.reject()
 
         end_index = self.get_end_index(self.index)
@@ -39,4 +39,4 @@ class Id_State(State):
         return False
 
     def is_char_accepted(self, i):
-        return i.isalpha() or i.isdigit()
+        return str(i).isalpha() or str(i).isdigit()
