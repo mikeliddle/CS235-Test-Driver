@@ -6,17 +6,18 @@ import subprocess
 import requests
 import os
 import shutil
+import datetime
 import re
 from ConfigFile import ConfigFile
 from ConfigFile import LogFile
-import _thread
-from threading import Lock
+# import _thread
+# from threading import Lock
 
 DEBUG = True
 WIN_DEBUG = True
 
-lock_compile_file = Lock()
-lock_email_file = Lock()
+# lock_compile_file = Lock()
+# lock_email_file = Lock()
 
 ROOT_DIR = 'path'
 
@@ -45,11 +46,14 @@ def compile_code(lab_name, net_id, email, log_date):
             file_info = p.stdout.decode('utf-8').split(":")
             file_info = file_info[1].split(";")
             file_info = file_info[1].split("=")
-            if file_info[1].strip() == "us-ascii":
+            file_info[1] = file_info[1].strip()
+
+            if file_info[1] == "us-ascii" or file_info[1] == "utf-8":
                 all_files.append(f)
             else:
-                information_string += 'invalid file encoding: ' + \
-                    file_info[1] + '\n'
+                information_string += 'invalid file encoding: \"' + \
+                    file_info[1] + '\" for file: ' + str(f) + '\n'
+                all_files.append(f)
 
     if len(all_files) < 1:
         information_string += 'No valid files detected!' + '\n'
@@ -95,15 +99,15 @@ def run_student_code(lab_name, net_id, email, log_date):
     information_string = compile_code(lab_name, net_id, email, log_date)
 
     # write to the compile file
-    lock_compile_file.acquire()
+    # lock_compile_file.acquire()
 
     compile_file_name = net_id + '.' + lab_name + '.compile.out'
     compile_file = open(compile_file_name, 'w+')
     compile_file.write(information_string)
     compile_file.close()
     shutil.copy(compile_file_name, '../' + compile_file_name)
-    
-    lock_compile_file.release()
+
+    # lock_compile_file.release()
 
     # dynamically set the subject line
     if 'Compilation Succeeded' in information_string:
@@ -126,23 +130,23 @@ def run_student_code(lab_name, net_id, email, log_date):
 
     # send email
     if not DEBUG:
-        lock_email_file.acquire()
+        # lock_email_file.acquire()
 
         with open(email_log_file, 'a+') as email_file:
             log_entry_list = (log_date, net_id, email,
                               lab_name, str(r.status_code))
             email_file.write(','.join(log_entry_list) + '\n')
-        
-        lock_email_file.release()
+
+        # lock_email_file.release()
 
     else:
-        lock_email_file.acquire()
-        
+        # lock_email_file.acquire()
+
         with open(email_log_file, 'a+') as email_file:
             log_entry_list = (log_date, net_id, email, lab_name, 'test')
             email_file.write(','.join(log_entry_list) + '\n')
-        
-        lock_email_file.release()
+
+        # lock_email_file.release()
 
     # self-cleanup
     os.chdir('..')
@@ -193,14 +197,16 @@ def submission_driver():
                 else:
                     with open(debug_log_file, 'a+') as debug_file:
                         debug_file.write('Unzipping file: ' + file_name + '\n')
-                _thread.start_new_thread(run_student_code, (lab, net_id, email, log_date))
+                # _thread.start_new_thread(run_student_code, (lab, net_id, email, log_date))
+                run_student_code(lab, net_id, email, log_date)
 
         except KeyboardInterrupt:
             exit(0)
         except Exception as error:
             # log any error messages.
             with open(error_log_file, 'a+') as error_log:
-                error_log.write(str(error) + '\n')
+                error_log.write(str(datetime.datetime.now()) +
+                                ': ' + str(error) + '\n')
 
 
 submission_driver()

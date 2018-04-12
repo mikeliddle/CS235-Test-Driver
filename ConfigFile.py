@@ -88,21 +88,29 @@ class LogFile(object):
     # end __init__
 
     def refresh(self):
-        self.file_contents = list(open(self.file_path, 'r'))
+        try:
+            self.file_contents = list(open(self.file_path, 'r'))
+            return 0
+        except:
+            self.file_contents = list()
+            return -1
 
     # end refresh
 
     def get_line(self, index):
-        self.refresh()
-        return self.file_contents[index].split(',')
+        if self.refresh() >= 0: 
+            return self.file_contents[index].split(',')
+        else:
+            return -1
 
     # end get_last_line
 
     def check_last_line(self, compare_index):
-        self.refresh()
-        if compare_index < len(self.file_contents):
-            return len(self.file_contents)
-        else:
-            return 0
+        if self.refresh() >= 0:
+            if compare_index < len(self.file_contents):
+                return len(self.file_contents)
+            else:
+                return 0
+        return 0
 
     # end check_last_line
