@@ -36,7 +36,14 @@
             echo "<tr><th>Name</th><th>Date</th><th>Action</th></tr>";
             
             foreach ($quizzes as $quiz) {
-                echo "<tr>" . "<td>" . $quiz['NAME'] . "</td>" . "<td>" . $quiz['DATE'] . "</td>" . "<td><form name=\"takeQuiz" . $quiz['ID'] . "\" action=\"quiz.php\" method=\"post\" enctype=\"multipart/form-data\"><input type=\"submit\" value=\"Take Quiz!\" class=\"submit\"></form></td>" . "</tr>";
+                echo "<tr>" . "<td>" . $quiz['NAME'] . "</td>";
+                echo "<td>" . $quiz['DATE'] . "</td>";
+                echo "<td><form name=\"takeQuiz" . $quiz['ID'] . "\" action=\"quiz.php\" method=\"post\" enctype=\"multipart/form-data\">";
+                echo "<input style=\"display: none;\" type=\"hidden\" name=\"quizid\" value=\"" . $quiz['ID'] . "\">";
+                echo "<input style=\"display: none;\" type=\"hidden\" name=\"netid\" value=\"" . $student_netid . "\">";
+                echo "<input style=\"display: none;\" type=\"hidden\" name=\"emailAddress\" value=\"" . $student_email . "\">";
+                echo "<input type=\"submit\" value=\"Take Quiz!\" class=\"submit\">";
+                echo "</form></td>" . "</tr>";
             }
 
             echo "</table>";

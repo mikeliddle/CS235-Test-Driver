@@ -9,20 +9,52 @@
     <link href="../libs/css/theme.css" rel="stylesheet">
 
     <meta http-equiv=Content-Type content="text/html; charset=us-ascii">
-    <title>Quiz |CS 235</title>
+    <title>Quiz Admin |CS 235</title>
+    <script>
+        var question_count = 0;
+
+        function add_question() {
+            var question = document.createElement('div');
+
+            question.className = 'question';
+
+            question.innerHTML = '
+            ';
+
+            document.getElementById('questions').appendChild(question);
+        }
+    </script>
 </head>
 
 <body lang=EN-US link=blue vlink=purple>
     <?php include("../navbar.php") ?>
-    
+
     <div class="container theme-showcase" role="main">
         <div class="container">
-    <?php
+            <form>
+                <p>
+                    <label for="quiz_name">What would you like to name the quiz? </label>
+                    <input required type="text" name="quiz_name" />
+                </p>
+                <p>
+                    <label for="quiz_name">What would you like to name the quiz? </label>
+                    <input required type="date" name="quiz_date" />
+                </p>
+                <p>
+                    <div id="questions">
+                        <button onclick="add_question()">Add Question!</button>
+                    </div>
+                </p>
+                <p>
+                    <label for="secret">Secret: </label>
+                    <input required type="password" name="secret" />
+                </p>
+                <p>
+                    <input type="submit" value="Submit!" class="submit" />
+                </p>
+            </form>
+            <?php
         include('db.php');
-
-        $student_netid = $_POST['netid'];
-        $student_emailAddress = $_POST['emailAddress'];
-        $quiz_id = $_POST['quizid'];
 
         $db = new MyDB();
 

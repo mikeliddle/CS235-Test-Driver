@@ -9,7 +9,7 @@
     <link href="../libs/css/theme.css" rel="stylesheet">
 
     <meta http-equiv=Content-Type content="text/html; charset=us-ascii">
-    <title>Quiz |CS 235</title>
+    <title>Result | CS 235</title>
 </head>
 
 <body lang=EN-US link=blue vlink=purple>
@@ -38,9 +38,6 @@
                 echo "<h1>Quiz: " . $quiz_data['NAME'] . "</h1>";
                 echo "<h4>For Date: " . $quiz_data['DATE'] . "</h4>";
                 echo "<form name=\"quiz\" action=\"submit_quiz.php\" method=\"post\" enctype=\"multipart/form-data\" >";
-                echo "<input type=\"hidden\" name=\"netid\" value=\"". $student_netid ."\" />";
-                echo "<input type=\"hidden\" name=\"emailAddress\" value=\"". $student_emailAddress ."\" />";
-                echo "<input type=\"hidden\" name=\"quizid\" value=\"". $quiz_id ."\" />";
                 
                 // print out each question and its answers.
                 foreach ($questions as $question) {
@@ -50,25 +47,25 @@
                     if ($question['ANSWER1'])
                     {
                         echo "<p>";
-                        echo "<input name=\"answer". $question['ID'] . "\" type=\"radio\" />" . $question['ANSWER1'];
+                        echo "<input type=\"radio\" />" . $question['ANSWER1'];
                         echo "</p>";
                     }
                     if ($question['ANSWER2'])
                     {
                         echo "<p>";
-                        echo "<input name=\"answer". $question['ID'] . "\"  type=\"radio\" />" . $question['ANSWER2'];
+                        echo "<input type=\"radio\" />" . $question['ANSWER2'];
                         echo "</p>";
                     }
                     if ($question['ANSWER3'])
                     {
                         echo "<p>";
-                        echo "<input name=\"answer". $question['ID'] . "\" type=\"radio\" />" . $question['ANSWER3'];
+                        echo "<input type=\"radio\" />" . $question['ANSWER3'];
                         echo "</p>";
                     }
                     if ($question['ANSWER4'])
                     {
                         echo "<p>";
-                        echo "<input name=\"answer". $question['ID'] . "\" type=\"radio\" />" . $question['ANSWER4'];
+                        echo "<input type=\"radio\" />" . $question['ANSWER4'];
                         echo "</p>";
                     }
                     echo "</div>";

@@ -35,6 +35,7 @@
                 ANSWER2        VARCHAR(200),
                 ANSWER3        VARCHAR(200),
                 ANSWER4        VARCHAR(200),
+                CORRECT        INT,
                 QUIZ_ID        INTEGER       NOT NULL
                 );
             ";
@@ -48,7 +49,38 @@
 
         function get_active_quizzes() {
             $sql ="
-                SELECT * FROM QUIZ WHERE QUIZ.ACTIVE=1 
+                SELECT * FROM QUIZ WHERE QUIZ.ACTIVE=1
+            ";
+
+            $ret = $this->query($sql);
+            $results = array();
+            
+            while($row = $ret->fetchArray(SQLITE3_ASSOC) ) {
+                array_push($results, $row);
+            }
+
+            return $results;
+        }
+
+        function get_quiz($quiz_id) {
+            $sql = "
+                SELECT * FROM QUIZ WHERE ID=" . $quiz_id . "
+                AND ACTIVE=1
+            ";
+
+            $ret = $this->query($sql);
+            $results = array();
+            
+            while($row = $ret->fetchArray(SQLITE3_ASSOC) ) {
+                return $row;
+            }
+
+            return $results;
+        }
+
+        function get_quiz_questions($quiz_id) {
+            $sql = "
+                SELECT * FROM QUESTION WHERE QUIZ_ID=" . $quiz_id . "
             ";
 
             $ret = $this->query($sql);
