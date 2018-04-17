@@ -1,2 +1,0 @@
-2018-01-11 20:11:55,jcbmorr,L00,V,0,10,000000000,222202,jfox97,jfox97@gmail.com,"Include comments about partial credit here."
-2018-01-12 17:09:46,jcbmorr,L00,V,0,9,000000000,222201,lukas3,lukas.erekson@gmail.com,"A memory leak on line 21 int leak  new int. Good work otherwise!"

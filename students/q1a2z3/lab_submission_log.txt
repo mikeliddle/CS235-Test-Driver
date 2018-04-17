@@ -1,2 +1,0 @@
-2018-01-11 17:49:34,Lab00,q1a2z3,67.4,V,(hello.zip),kevwonnacott1@gmail.com,""
-2018-01-11 17:52:14,Lab00,q1a2z3,965 hours 2 minutes,V,(hello.zip),kevwonnacott1@gmail.com,""

@@ -1,2 +1,0 @@
-2018-01-10 19:31:57,Lab00,benhuff,.5,V,(hello.zip),chosenoats@yahoo.com,""
-2018-01-11 14:03:46,Lab00,benhuff,0,V,(hello.zip),proper@cs.byu.edu,""

@@ -1,1 +1,0 @@
-2018-01-12 17:01:29,evelos,L00,V,0,10,000000000,222202,solmyr,jhaezhyr12@gmail.com,"Very nice!  All you were missing was the Memory debugging flag and the arg stream usage.  I would suggest following the program specs next time though.  Hello world doesn't normally take input."

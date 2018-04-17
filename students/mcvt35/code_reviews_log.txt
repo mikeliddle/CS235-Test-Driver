@@ -1,2 +1,0 @@
-2018-01-11 16:29:58,mcvt35,L00,V,0,10,000000000,222202,idraper,isaac@zfamily.org,"Include comments about partial credit here."
-2018-01-12 11:31:08,mcvt35,L00,V,0,10,000000000,222202,myler715,myler64@gmail.com,"Code looks good."

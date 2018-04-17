@@ -1,2 +1,0 @@
-2018-01-10 16:27:42,Lab00,shep7,.01,V,(hello.zip),ldsheep7@gmail.com,""
-2018-01-10 16:36:33,Lab00,shep7,0,V,(hello.zip),ldsheep7@gmail.com,""

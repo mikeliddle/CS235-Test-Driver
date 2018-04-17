@@ -1,3 +1,0 @@
-2018-01-10 15:11:30,hami27,L00,V,0,0,000000000,000000,stud10,proper@cs.byu.edu,"Include comments about partial credit here."
-2018-01-11 16:43:11,hami27,L00,V,0,10,000000000,222202,jes0613,jes06137@gmail.com,"Include comments about partial credit here."
-2018-01-12 17:40:09,hami27,L00,V,0,10,000000000,222202,cbuford,calenbuford@gmail.com,"Include comments about partial credit here."

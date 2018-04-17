@@ -1,3 +1,0 @@
-2018-01-10 23:10:08,Lab00,solmyr,0,X,(hello.zip),jhaezhyr12@gmail.com,""
-2018-01-10 23:11:14,Lab00,solmyr,0,X,(hello.zip),jhaezhyr12@gmail.com,""
-2018-01-10 23:12:02,Lab00,solmyr,0,X,(hello.zip),jhaezhyr12@gmail.com,""

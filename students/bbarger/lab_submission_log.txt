@@ -1,2 +1,0 @@
-2018-01-10 16:09:35,Lab00,bbarger,0,X,(hello.zip),bdbarger82@gmail.com,""
-2018-01-10 16:11:36,Lab00,bbarger,0,X,(hello.zip),bdbarger82@gmail.com,""

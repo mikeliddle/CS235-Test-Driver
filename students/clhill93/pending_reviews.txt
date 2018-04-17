@@ -1,2 +1,0 @@
-clhill93,2018-01-10,L00,stud01,V,proper@cs.byu.edu
-clhill93,2018-01-10,L00,stud02,V,proper@cs.byu.edu

@@ -1,3 +1,0 @@
-2018-01-17 12:17:02,Lab01,mbrann,8,V,(grades.zip),mbrann.brann314@gmail.com,""
-2018-01-17 12:23:28,Lab01,mbrann,8,V,(grades.zip),mbrann.brann314@gmail.com,""
-2018-01-17 12:25:42,Lab01,mbrann,8,V,(grades.zip),mbrann.brann314@gmail.com,""

@@ -1,2 +1,0 @@
-2018-01-10 20:32:02,Lab00,fancis16,.5,V,(hello.zip),francisbe97@gmail.com,""
-2018-01-10 20:52:12,Lab00,fancis16,.5,V,(hello.zip),francisbe97@gmail.com,""

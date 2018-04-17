@@ -1,2 +1,0 @@
-2018-01-11 13:54:40,Lab00,czundel1,.30,V,(hello.zip),camille.zundel@gmail.com,""
-2018-01-11 13:56:11,Lab00,czundel1,0,V,(hello.zip),camille.zundel@gmail.com,""

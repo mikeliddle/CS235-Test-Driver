@@ -1,3 +1,0 @@
-2018-01-10 21:15:11,Lab00,danh444,0,X,(hello.zip),dhutch@dazoo.org,""
-2018-01-10 21:17:21,Lab00,danh444,0,X,(hello.zip),dhutch@dazoo.org,""
-2018-01-10 21:18:36,Lab00,danh444,0,X,(hello.zip),dhutch@dazoo.org,""

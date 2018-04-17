@@ -1,8 +1,0 @@
-compiling files:
-./HelloWorld.cpp
-
-g++ -std=c++14 -Wall -g -o"run_me" *.cpp
-HelloWorld.cpp:9:21: warning: ISO C++11 requires whitespace after the macro name
- #define VS_MEM_CHECK;
-                     ^
-Compilation Succeeded!

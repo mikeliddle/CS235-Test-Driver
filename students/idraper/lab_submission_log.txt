@@ -1,2 +1,0 @@
-2018-01-10 18:47:05,Lab00,idraper,0,V,(hello.zip),isaac@zfamily.org,""
-2018-01-17 18:54:58,Lab01,idraper,4,V,(grades.zip),isaac@zfamily.org,""

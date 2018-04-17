@@ -1,2 +1,0 @@
-2018-01-09 19:26:05,Lab00,naillong,0.5,V,(hello.zip),naillongar17@gmail.com,""
-2018-01-10 12:23:06,Lab00,naillong,0,V,(hello.zip),naillongar17@gmail.com,""

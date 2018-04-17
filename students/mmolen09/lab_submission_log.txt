@@ -1,3 +1,0 @@
-2018-01-11 11:20:01,Lab00,mmolen09,0.2,V,(hello.zip),mbmolen@gmail.com,""
-2018-01-11 11:23:28,Lab00,mmolen09,0.2,V,(hello.zip),mbmolen@gmial.com,""
-2018-01-11 11:24:00,Lab00,mmolen09,0.2,V,(hello.zip),mbmolen@gmail.com,""

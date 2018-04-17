@@ -1,7 +1,0 @@
-2018-01-10 13:46:00,Lab00,sputinc,0.1,V,(hello.zip),scottjohnstun.personal@gmail.com,""
-2018-01-10 17:50:19,Lab00,sputinc,1,V,(hello.zip),scottjohnstun.personal@gmail.com,""
-2018-01-10 17:51:25,Lab00,sputinc,0,V,(hello.zip),scottjohnstun.personal@gmail.com,""
-2018-01-10 17:52:33,Lab00,sputinc,0,V,(hello.zip),scottjohnstun.personal@gmail.com,""
-2018-01-15 21:31:14,Lab01,sputinc,4,V,(grades.zip),scottjohnstun.personal@gmail.com,""
-2018-01-15 21:36:44,Lab01,sputinc,4,V,(grades.zip),scottjohnstun.personal@gmail.com,""
-2018-01-15 21:40:50,Lab01,sputinc,4,V,(grades.zip),scottjohnstun.personal@gmail.com,""

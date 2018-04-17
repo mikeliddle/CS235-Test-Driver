@@ -1,9 +1,0 @@
-compiling files:
-./Source.cpp
-
-g++ -std=c++14 -Wall -g -o"run_me" *.cpp
-Source.cpp: In function ‘double calculateClassAverages(int**, int, float*)’:
-Source.cpp:202:9: warning: converting to non-pointer type ‘double’ from NULL [-Wconversion-null]
-  return NULL;
-         ^
-Compilation Succeeded!

@@ -1,8 +1,0 @@
-compiling files:
-./*.cpp
-
-g++ -std=c++14 -Wall -g -o"run_me" *.cpp
-g++: error: *.cpp: No such file or directory
-g++: fatal error: no input files
-compilation terminated.
-Compilation Failed 0

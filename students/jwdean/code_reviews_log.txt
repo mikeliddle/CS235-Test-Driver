@@ -1,2 +1,0 @@
-2018-01-12 12:21:15,jwdean,L00,V,0,10,000000000,222202,bbrenk,JustBrenkman@gmail.com,"Include comments about partial credit here."
-2018-01-15 12:27:00,jwdean,L00,V,0,10,000000000,222202,mmolen09,mbmolen@gmail.com,"Memory leaks detected.  Be sure to delete any new variables at the end."

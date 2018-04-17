@@ -1,2 +1,0 @@
-2018-01-11 18:26:12,ramirant,L00,V,0,10,000000000,222202,mymckinn,matthewymckinney@gmail.com,"Include comments about partial credit here."
-2018-01-12 09:31:13,ramirant,L00,V,0,9,000000000,222102,ghagen,Grantdhagen@gmail.com,"Include comments about partial credit here."

@@ -1,1 +1,0 @@
-2018-01-10 07:01:44,Lab00,stud03,0,V,(hello.zip),proper@cs.byu.edu,""

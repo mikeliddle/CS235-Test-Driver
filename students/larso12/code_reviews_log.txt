@@ -1,2 +1,0 @@
-2018-01-11 19:26:51,larso12,L00,V,0,10,000000000,222202,shastin2,1spencer.hastings@gmail.com,"Excellent coding."
-2018-01-12 13:08:45,larso12,L00,V,0,10,000000000,222202,eganae,aelizegan@gmail.com,"Include comments about partial credit here."

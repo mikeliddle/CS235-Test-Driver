@@ -1,3 +1,0 @@
-2018-01-10 12:52:54,Lab00,kruth99,10 min,V,(hello.zip),kendallruth99@gmail.com,""
-2018-01-10 13:43:15,Lab00,kruth99,20 min,V,(hello.zip),kendallruth99@gmail.com,""
-2018-01-10 14:03:37,Lab00,kruth99,25 min,V,(hello.zip),kendallruth99@gmail.com,""

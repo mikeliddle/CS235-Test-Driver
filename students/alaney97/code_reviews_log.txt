@@ -1,2 +1,0 @@
-2018-01-11 16:22:44,alaney97,L00,V,0,10,000000000,222202,jaredtr1,jared.rossberg@gmail.com,""
-2018-01-12 18:01:50,alaney97,L00,V,0,10,000000000,222202,bbarger,bdbarger82@gmail.com,"Include comments about partial credit here."

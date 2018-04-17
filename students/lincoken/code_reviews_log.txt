@@ -1,2 +1,0 @@
-2018-01-11 16:28:15,lincoken,L00,V,0,10,000000000,222202,rbeazer2,ryanbeazer@gmail.com,"Include comments about partial credit here."
-2018-01-12 13:20:44,lincoken,L00,V,0,10,000000000,222202,jacson10,jacson10e@gmail.com,"Include comments about partial credit here."

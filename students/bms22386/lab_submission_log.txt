@@ -1,2 +1,0 @@
-2018-01-11 17:40:43,Lab00,bms22386,0.2,V,(hello.zip),bsmithsteak@gmail.com,""
-2018-01-13 23:35:14,Lab01,bms22386,4.5,V,(grades.zip),bsmithsteak@gmail.com,""

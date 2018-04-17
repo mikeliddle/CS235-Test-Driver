@@ -1,4 +1,0 @@
-2018-01-10 21:01:55,Lab00,foltzdw,.5,V,(hello.zip),foltz.dw@gmail.com,""
-2018-01-15 11:47:26,Lab01,foltzdw,7,V,(grades.zip),foltz.dw@gmail.com,""
-2018-01-15 12:00:55,Lab01,foltzdw,0,V,(grades.zip),foltz.dw@gmail.com,""
-2018-01-15 12:04:04,Lab01,foltzdw,7,V,(grades.zip),foltz.dw@gmail.com,""

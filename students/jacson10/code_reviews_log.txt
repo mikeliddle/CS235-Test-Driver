@@ -1,1 +1,0 @@
-2018-01-11 19:49:16,jacson10,L00,V,0,0,000000000,000000,cravenn,cravennathan@gmail.com,"File would not compile. Only had the .sln file so when the given project file tried to open the .cpp file it could not be found."

@@ -1,2 +1,0 @@
-2018-01-10 21:50:04,Lab00,jordanrj,0.5,V,(hello.zip),jordanrjenkins@outlook.com,""
-2018-01-10 21:54:43,Lab00,jordanrj,0.1,V,(hello.zip),jordanrjenkins@outlook.com,""

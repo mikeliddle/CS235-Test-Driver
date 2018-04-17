@@ -1,2 +1,0 @@
-2018-01-11 16:25:16,Lab00,zmeyer1,0,V,(hello.zip),zackmeyer1@hotmail.com,""
-2018-01-11 16:29:51,Lab00,zmeyer1,0,V,(hello.zip),zackmeyer1@hotmail.com,""

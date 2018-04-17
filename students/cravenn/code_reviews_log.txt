@@ -1,2 +1,0 @@
-2018-01-11 21:47:29,cravenn,L00,V,0,10,000000000,222202,cjzufelt,cjzufelt@gmail.com,""
-2018-01-16 14:42:34,cravenn,L00,V,0,10,000000000,222202,igabe,igabe@icloud.com,"Include comments about partial credit here."

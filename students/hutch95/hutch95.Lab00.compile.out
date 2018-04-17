@@ -1,637 +1,0 @@
-compiling files:
-./main.cpp
-
-g++ -std=c++14 -Wall -g -o"run_me" *.cpp
-main.cpp:1:1: error: stray ‘\377’ in program
- �� 
- ^
-main.cpp:1:1: error: stray ‘\376’ in program
-main.cpp:2:1: warning: null character(s) ignored
-   
- ^
-main.cpp:3:1: warning: null character(s) ignored
-  # i n c l u d e   < i o s t r e a m >  
- ^
-main.cpp:4:1: warning: null character(s) ignored
-  u s i n g   n a m e s p a c e   s t d ;  
- ^
-main.cpp:5:1: warning: null character(s) ignored
-   
- ^
-main.cpp:5:3: warning: null character(s) ignored
-   
-   ^
-main.cpp:5:4: error: invalid preprocessing directive #i
-main.cpp:5:5: warning: null character(s) ignored
-main.cpp:5:7: warning: null character(s) ignored
-main.cpp:5:9: warning: null character(s) ignored
-main.cpp:5:11: warning: null character(s) ignored
-main.cpp:5:13: warning: null character(s) ignored
-main.cpp:5:15: warning: null character(s) ignored
-main.cpp:5:17: warning: null character(s) ignored
-main.cpp:5:21: warning: null character(s) ignored
-main.cpp:5:23: warning: null character(s) ignored
-main.cpp:5:25: warning: null character(s) ignored
-main.cpp:5:27: warning: null character(s) ignored
-main.cpp:5:29: warning: null character(s) ignored
-main.cpp:5:31: warning: null character(s) ignored
-main.cpp:5:33: warning: null character(s) ignored
-main.cpp:5:35: warning: null character(s) ignored
-main.cpp:5:37: warning: null character(s) ignored
-main.cpp:5:39: warning: null character(s) ignored
-main.cpp:6:1: warning: null character(s) ignored
-  # i f d e f   _ M S C _ V E R  
- ^
-main.cpp:7:1: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
- ^
-main.cpp:7:3: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-   ^
-main.cpp:7:5: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-     ^
-main.cpp:7:7: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-       ^
-main.cpp:7:9: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-         ^
-main.cpp:7:11: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-           ^
-main.cpp:7:15: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-               ^
-main.cpp:7:17: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                 ^
-main.cpp:7:19: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                   ^
-main.cpp:7:21: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                     ^
-main.cpp:7:23: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                       ^
-main.cpp:7:25: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                         ^
-main.cpp:7:27: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                           ^
-main.cpp:7:29: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                             ^
-main.cpp:7:31: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                               ^
-main.cpp:7:35: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                                   ^
-main.cpp:7:37: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                                     ^
-main.cpp:7:39: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                                       ^
-main.cpp:7:41: warning: null character(s) ignored
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-                                         ^
-main.cpp:8:1: warning: null character(s) ignored
-  # i n c l u d e   < c r t d b g . h >  
- ^
-main.cpp:9:1: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K   _ C r t S e t D b g F l a g ( _ C R T D B G _ A L L O C _ M E M _ D F   |   _ C R T D B G _ L E A K _ C H E C K _ D F ) ;  
- ^
-main.cpp:10:1: warning: null character(s) ignored
-  # e l s e  
- ^
-main.cpp:11:1: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
- ^
-main.cpp:11:3: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-   ^
-main.cpp:11:4: error: invalid preprocessing directive #i
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-    ^
-main.cpp:11:5: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-     ^
-main.cpp:11:7: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-       ^
-main.cpp:11:9: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-         ^
-main.cpp:11:11: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-           ^
-main.cpp:11:13: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-             ^
-main.cpp:11:17: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-                 ^
-main.cpp:11:19: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-                   ^
-main.cpp:11:21: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-                     ^
-main.cpp:11:23: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-                       ^
-main.cpp:11:25: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-                         ^
-main.cpp:11:27: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-                           ^
-main.cpp:11:29: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-                             ^
-main.cpp:11:31: warning: null character(s) ignored
-  # d e f i n e   V S _ M E M _ C H E C K ;  
-                               ^
-main.cpp:12:1: warning: null character(s) ignored
-  # e n d i f  
- ^
-main.cpp:13:1: warning: null character(s) ignored
-   
- ^
-main.cpp:13:3: warning: null character(s) ignored
-   
-   ^
-main.cpp:13:4: error: invalid preprocessing directive #d
-main.cpp:13:5: warning: null character(s) ignored
-main.cpp:13:7: warning: null character(s) ignored
-main.cpp:13:9: warning: null character(s) ignored
-main.cpp:13:11: warning: null character(s) ignored
-main.cpp:13:13: warning: null character(s) ignored
-main.cpp:13:15: warning: null character(s) ignored
-main.cpp:13:19: warning: null character(s) ignored
-main.cpp:13:21: warning: null character(s) ignored
-main.cpp:13:23: warning: null character(s) ignored
-main.cpp:13:25: warning: null character(s) ignored
-main.cpp:13:27: warning: null character(s) ignored
-main.cpp:13:29: warning: null character(s) ignored
-main.cpp:13:31: warning: null character(s) ignored
-main.cpp:13:33: warning: null character(s) ignored
-main.cpp:13:35: warning: null character(s) ignored
-main.cpp:13:37: warning: null character(s) ignored
-main.cpp:13:39: warning: null character(s) ignored
-main.cpp:13:41: warning: null character(s) ignored
-main.cpp:13:43: warning: null character(s) ignored
-main.cpp:13:45: warning: null character(s) ignored
-main.cpp:13:47: warning: null character(s) ignored
-main.cpp:13:49: warning: null character(s) ignored
-main.cpp:13:51: warning: null character(s) ignored
-main.cpp:14:1: warning: null character(s) ignored
-  i n t   m a i n ( i n t   a r g c ,   c h a r *   a r g v [ ] )  
- ^
-main.cpp:15:1: warning: null character(s) ignored
-  {  
- ^
-main.cpp:15:3: warning: null character(s) ignored
-  {  
-   ^
-main.cpp:15:4: error: invalid preprocessing directive #i
-  {  
-    ^
-main.cpp:15:5: warning: null character(s) ignored
-  {  
-     ^
-main.cpp:15:7: warning: null character(s) ignored
-main.cpp:15:9: warning: null character(s) ignored
-main.cpp:15:11: warning: null character(s) ignored
-main.cpp:15:13: warning: null character(s) ignored
-main.cpp:15:15: warning: null character(s) ignored
-main.cpp:15:17: warning: null character(s) ignored
-main.cpp:15:21: warning: null character(s) ignored
-main.cpp:15:23: warning: null character(s) ignored
-main.cpp:15:25: warning: null character(s) ignored
-main.cpp:15:27: warning: null character(s) ignored
-main.cpp:15:29: warning: null character(s) ignored
-main.cpp:15:31: warning: null character(s) ignored
-main.cpp:15:33: warning: null character(s) ignored
-main.cpp:15:35: warning: null character(s) ignored
-main.cpp:15:37: warning: null character(s) ignored
-main.cpp:15:39: warning: null character(s) ignored
-main.cpp:16:1: warning: null character(s) ignored
-    / / V S _ M E M _ C H E C K       / /   c h e c k   f o r   m e m o r y   l e a k s  
- ^
-main.cpp:17:1: warning: null character(s) ignored
-     
- ^
-main.cpp:17:3: warning: null character(s) ignored
-     
-   ^
-main.cpp:17:4: error: invalid preprocessing directive #d
-     
-    ^
-main.cpp:17:5: warning: null character(s) ignored
-     
-     ^
-main.cpp:17:7: warning: null character(s) ignored
-main.cpp:17:9: warning: null character(s) ignored
-main.cpp:17:11: warning: null character(s) ignored
-main.cpp:17:13: warning: null character(s) ignored
-main.cpp:17:15: warning: null character(s) ignored
-main.cpp:17:19: warning: null character(s) ignored
-main.cpp:17:21: warning: null character(s) ignored
-main.cpp:17:23: warning: null character(s) ignored
-main.cpp:17:25: warning: null character(s) ignored
-main.cpp:17:27: warning: null character(s) ignored
-main.cpp:17:29: warning: null character(s) ignored
-main.cpp:17:31: warning: null character(s) ignored
-main.cpp:17:33: warning: null character(s) ignored
-main.cpp:17:35: warning: null character(s) ignored
-main.cpp:17:37: warning: null character(s) ignored
-main.cpp:17:39: warning: null character(s) ignored
-main.cpp:17:41: warning: null character(s) ignored
-main.cpp:17:45: warning: null character(s) ignored
-main.cpp:17:47: warning: null character(s) ignored
-main.cpp:17:49: warning: null character(s) ignored
-main.cpp:17:51: warning: null character(s) ignored
-main.cpp:17:53: warning: null character(s) ignored
-main.cpp:17:55: warning: null character(s) ignored
-main.cpp:17:57: warning: null character(s) ignored
-main.cpp:17:59: warning: null character(s) ignored
-main.cpp:17:61: warning: null character(s) ignored
-main.cpp:17:63: warning: null character(s) ignored
-main.cpp:17:65: warning: null character(s) ignored
-main.cpp:17:67: warning: null character(s) ignored
-main.cpp:17:69: warning: null character(s) ignored
-main.cpp:17:71: warning: null character(s) ignored
-main.cpp:17:73: warning: null character(s) ignored
-main.cpp:17:75: warning: null character(s) ignored
-main.cpp:17:77: warning: null character(s) ignored
-main.cpp:17:79: warning: null character(s) ignored
-main.cpp:17:81: warning: null character(s) ignored
-main.cpp:17:83: warning: null character(s) ignored
-main.cpp:17:85: warning: null character(s) ignored
-main.cpp:17:87: warning: null character(s) ignored
-main.cpp:17:89: warning: null character(s) ignored
-main.cpp:17:91: warning: null character(s) ignored
-main.cpp:17:93: warning: null character(s) ignored
-main.cpp:17:95: warning: null character(s) ignored
-main.cpp:17:97: warning: null character(s) ignored
-main.cpp:17:99: warning: null character(s) ignored
-main.cpp:17:101: warning: null character(s) ignored
-main.cpp:17:103: warning: null character(s) ignored
-main.cpp:17:105: warning: null character(s) ignored
-main.cpp:17:107: warning: null character(s) ignored
-main.cpp:17:109: warning: null character(s) ignored
-main.cpp:17:111: warning: null character(s) ignored
-main.cpp:17:113: warning: null character(s) ignored
-main.cpp:17:117: warning: null character(s) ignored
-main.cpp:17:121: warning: null character(s) ignored
-main.cpp:17:123: warning: null character(s) ignored
-main.cpp:17:125: warning: null character(s) ignored
-main.cpp:17:127: warning: null character(s) ignored
-main.cpp:17:129: warning: null character(s) ignored
-main.cpp:17:131: warning: null character(s) ignored
-main.cpp:17:133: warning: null character(s) ignored
-main.cpp:17:135: warning: null character(s) ignored
-main.cpp:17:137: warning: null character(s) ignored
-main.cpp:17:139: warning: null character(s) ignored
-main.cpp:17:141: warning: null character(s) ignored
-main.cpp:17:143: warning: null character(s) ignored
-main.cpp:17:145: warning: null character(s) ignored
-main.cpp:17:147: warning: null character(s) ignored
-main.cpp:17:149: warning: null character(s) ignored
-main.cpp:17:151: warning: null character(s) ignored
-main.cpp:17:153: warning: null character(s) ignored
-main.cpp:17:155: warning: null character(s) ignored
-main.cpp:17:157: warning: null character(s) ignored
-main.cpp:17:159: warning: null character(s) ignored
-main.cpp:17:161: warning: null character(s) ignored
-main.cpp:17:163: warning: null character(s) ignored
-main.cpp:17:165: warning: null character(s) ignored
-main.cpp:18:1: warning: null character(s) ignored
-    c o u t   < <   " H e l l o   W o r l d ! " ;  
- ^
-main.cpp:19:1: warning: null character(s) ignored
-   
- ^
-main.cpp:19:3: warning: null character(s) ignored
-   
-   ^
-main.cpp:19:4: error: invalid preprocessing directive #e
-main.cpp:19:5: warning: null character(s) ignored
-main.cpp:19:7: warning: null character(s) ignored
-main.cpp:19:9: warning: null character(s) ignored
-main.cpp:19:11: warning: null character(s) ignored
-main.cpp:20:1: warning: null character(s) ignored
-    c o u t   < <   e n d l   < <   " a r g c   =   "   < <   a r g c ;  
- ^
-main.cpp:21:1: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
- ^
-main.cpp:21:3: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-   ^
-main.cpp:21:4: error: invalid preprocessing directive #d
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-    ^
-main.cpp:21:5: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-     ^
-main.cpp:21:7: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-       ^
-main.cpp:21:9: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-         ^
-main.cpp:21:11: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-           ^
-main.cpp:21:13: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-             ^
-main.cpp:21:15: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-               ^
-main.cpp:21:19: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                   ^
-main.cpp:21:21: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                     ^
-main.cpp:21:23: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                       ^
-main.cpp:21:25: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                         ^
-main.cpp:21:27: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                           ^
-main.cpp:21:29: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                             ^
-main.cpp:21:31: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                               ^
-main.cpp:21:33: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                                 ^
-main.cpp:21:35: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                                   ^
-main.cpp:21:37: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                                     ^
-main.cpp:21:39: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                                       ^
-main.cpp:21:41: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                                         ^
-main.cpp:21:43: warning: null character(s) ignored
-    i f   ( a r g c   >   1 )   c o u t   < <   e n d l   < <   " a r g v [ 1 ]   =   "   < <   a r g v [ 1 ] ;  
-                                           ^
-main.cpp:22:1: warning: null character(s) ignored
-    i f   ( a r g c   >   2 )   c o u t   < <   e n d l   < <   " a r g v [ 2 ]   =   "   < <   a r g v [ 2 ] ;  
- ^
-main.cpp:23:1: warning: null character(s) ignored
-   
- ^
-main.cpp:23:3: warning: null character(s) ignored
-   
-   ^
-main.cpp:23:4: error: invalid preprocessing directive #e
-main.cpp:23:5: warning: null character(s) ignored
-main.cpp:23:7: warning: null character(s) ignored
-main.cpp:23:9: warning: null character(s) ignored
-main.cpp:23:11: warning: null character(s) ignored
-main.cpp:23:13: warning: null character(s) ignored
-main.cpp:24:1: warning: null character(s) ignored
-    i n t *   l e a k   =   n e w   i n t ;  
- ^
-main.cpp:25:1: warning: null character(s) ignored
-    r e t u r n   0 ;  
- ^
-main.cpp:26:1: warning: null character(s) ignored
-  } 
- ^
-main.cpp:27:1: warning: null character(s) ignored
-main.cpp:27:3: warning: null character(s) ignored
-main.cpp:27:5: warning: null character(s) ignored
-main.cpp:27:7: warning: null character(s) ignored
-main.cpp:27:11: warning: null character(s) ignored
-main.cpp:27:13: warning: null character(s) ignored
-main.cpp:27:15: warning: null character(s) ignored
-main.cpp:27:17: warning: null character(s) ignored
-main.cpp:27:19: warning: null character(s) ignored
-main.cpp:27:21: warning: null character(s) ignored
-main.cpp:27:23: warning: null character(s) ignored
-main.cpp:27:25: warning: null character(s) ignored
-main.cpp:27:29: warning: null character(s) ignored
-main.cpp:27:31: warning: null character(s) ignored
-main.cpp:27:33: warning: null character(s) ignored
-main.cpp:27:35: warning: null character(s) ignored
-main.cpp:27:37: warning: null character(s) ignored
-main.cpp:27:41: warning: null character(s) ignored
-main.cpp:27:43: warning: null character(s) ignored
-main.cpp:27:45: warning: null character(s) ignored
-main.cpp:27:47: warning: null character(s) ignored
-main.cpp:27:49: warning: null character(s) ignored
-main.cpp:27:53: warning: null character(s) ignored
-main.cpp:27:55: warning: null character(s) ignored
-main.cpp:27:57: warning: null character(s) ignored
-main.cpp:27:59: warning: null character(s) ignored
-main.cpp:27:61: warning: null character(s) ignored
-main.cpp:27:63: warning: null character(s) ignored
-main.cpp:27:65: warning: null character(s) ignored
-main.cpp:28:1: warning: null character(s) ignored
-main.cpp:29:1: warning: null character(s) ignored
-main.cpp:29:3: warning: null character(s) ignored
-main.cpp:30:1: warning: null character(s) ignored
-main.cpp:31:1: warning: null character(s) ignored
-main.cpp:31:5: warning: null character(s) ignored
-main.cpp:31:7: warning: null character(s) ignored
-main.cpp:31:9: warning: null character(s) ignored
-main.cpp:31:11: warning: null character(s) ignored
-main.cpp:31:13: warning: null character(s) ignored
-main.cpp:31:15: warning: null character(s) ignored
-main.cpp:31:17: warning: null character(s) ignored
-main.cpp:31:19: warning: null character(s) ignored
-main.cpp:31:21: warning: null character(s) ignored
-main.cpp:31:23: warning: null character(s) ignored
-main.cpp:31:25: warning: null character(s) ignored
-main.cpp:31:27: warning: null character(s) ignored
-main.cpp:31:29: warning: null character(s) ignored
-main.cpp:31:31: warning: null character(s) ignored
-main.cpp:31:39: warning: null character(s) ignored
-main.cpp:31:41: warning: null character(s) ignored
-main.cpp:31:45: warning: null character(s) ignored
-main.cpp:31:47: warning: null character(s) ignored
-main.cpp:31:49: warning: null character(s) ignored
-main.cpp:31:51: warning: null character(s) ignored
-main.cpp:31:53: warning: null character(s) ignored
-main.cpp:31:57: warning: null character(s) ignored
-main.cpp:31:59: warning: null character(s) ignored
-main.cpp:31:61: warning: null character(s) ignored
-main.cpp:31:65: warning: null character(s) ignored
-main.cpp:31:67: warning: null character(s) ignored
-main.cpp:31:69: warning: null character(s) ignored
-main.cpp:31:71: warning: null character(s) ignored
-main.cpp:31:73: warning: null character(s) ignored
-main.cpp:31:75: warning: null character(s) ignored
-main.cpp:31:79: warning: null character(s) ignored
-main.cpp:31:81: warning: null character(s) ignored
-main.cpp:31:83: warning: null character(s) ignored
-main.cpp:31:85: warning: null character(s) ignored
-main.cpp:31:87: warning: null character(s) ignored
-main.cpp:32:1: warning: null character(s) ignored
-main.cpp:33:1: warning: null character(s) ignored
-main.cpp:34:1: warning: null character(s) ignored
-main.cpp:35:1: warning: null character(s) ignored
-main.cpp:35:5: warning: null character(s) ignored
-main.cpp:35:7: warning: null character(s) ignored
-main.cpp:35:9: warning: null character(s) ignored
-main.cpp:35:11: warning: null character(s) ignored
-main.cpp:35:15: warning: null character(s) ignored
-main.cpp:35:17: warning: null character(s) ignored
-main.cpp:35:20: warning: null character(s) preserved in literal
-main.cpp:35:47: warning: null character(s) ignored
-main.cpp:35:49: warning: null character(s) ignored
-main.cpp:36:1: warning: null character(s) ignored
-main.cpp:37:1: warning: null character(s) ignored
-main.cpp:38:1: warning: null character(s) ignored
-main.cpp:39:1: warning: null character(s) ignored
-main.cpp:39:5: warning: null character(s) ignored
-main.cpp:39:7: warning: null character(s) ignored
-main.cpp:39:9: warning: null character(s) ignored
-main.cpp:39:11: warning: null character(s) ignored
-main.cpp:39:15: warning: null character(s) ignored
-main.cpp:39:17: warning: null character(s) ignored
-main.cpp:39:21: warning: null character(s) ignored
-main.cpp:39:23: warning: null character(s) ignored
-main.cpp:39:25: warning: null character(s) ignored
-main.cpp:39:27: warning: null character(s) ignored
-main.cpp:39:31: warning: null character(s) ignored
-main.cpp:39:33: warning: null character(s) ignored
-main.cpp:39:36: warning: null character(s) preserved in literal
-main.cpp:39:53: warning: null character(s) ignored
-main.cpp:39:57: warning: null character(s) ignored
-main.cpp:39:59: warning: null character(s) ignored
-main.cpp:39:63: warning: null character(s) ignored
-main.cpp:39:65: warning: null character(s) ignored
-main.cpp:39:67: warning: null character(s) ignored
-main.cpp:39:69: warning: null character(s) ignored
-main.cpp:39:71: warning: null character(s) ignored
-main.cpp:40:1: warning: null character(s) ignored
-main.cpp:41:1: warning: null character(s) ignored
-main.cpp:41:5: warning: null character(s) ignored
-main.cpp:41:7: warning: null character(s) ignored
-main.cpp:41:11: warning: null character(s) ignored
-main.cpp:41:13: warning: null character(s) ignored
-main.cpp:41:15: warning: null character(s) ignored
-main.cpp:41:17: warning: null character(s) ignored
-main.cpp:41:19: warning: null character(s) ignored
-main.cpp:41:23: warning: null character(s) ignored
-main.cpp:41:27: warning: null character(s) ignored
-main.cpp:41:29: warning: null character(s) ignored
-main.cpp:41:33: warning: null character(s) ignored
-main.cpp:41:35: warning: null character(s) ignored
-main.cpp:41:37: warning: null character(s) ignored
-main.cpp:41:39: warning: null character(s) ignored
-main.cpp:41:43: warning: null character(s) ignored
-main.cpp:41:45: warning: null character(s) ignored
-main.cpp:41:49: warning: null character(s) ignored
-main.cpp:41:51: warning: null character(s) ignored
-main.cpp:41:53: warning: null character(s) ignored
-main.cpp:41:55: warning: null character(s) ignored
-main.cpp:41:59: warning: null character(s) ignored
-main.cpp:41:61: warning: null character(s) ignored
-main.cpp:41:64: warning: null character(s) preserved in literal
-main.cpp:41:87: warning: null character(s) ignored
-main.cpp:41:91: warning: null character(s) ignored
-main.cpp:41:93: warning: null character(s) ignored
-main.cpp:41:97: warning: null character(s) ignored
-main.cpp:41:99: warning: null character(s) ignored
-main.cpp:41:101: warning: null character(s) ignored
-main.cpp:41:103: warning: null character(s) ignored
-main.cpp:41:105: warning: null character(s) ignored
-main.cpp:41:107: warning: null character(s) ignored
-main.cpp:41:109: warning: null character(s) ignored
-main.cpp:41:111: warning: null character(s) ignored
-main.cpp:42:1: warning: null character(s) ignored
-main.cpp:43:1: warning: null character(s) ignored
-main.cpp:43:5: warning: null character(s) ignored
-main.cpp:43:7: warning: null character(s) ignored
-main.cpp:43:11: warning: null character(s) ignored
-main.cpp:43:13: warning: null character(s) ignored
-main.cpp:43:15: warning: null character(s) ignored
-main.cpp:43:17: warning: null character(s) ignored
-main.cpp:43:19: warning: null character(s) ignored
-main.cpp:43:23: warning: null character(s) ignored
-main.cpp:43:27: warning: null character(s) ignored
-main.cpp:43:29: warning: null character(s) ignored
-main.cpp:43:33: warning: null character(s) ignored
-main.cpp:43:35: warning: null character(s) ignored
-main.cpp:43:37: warning: null character(s) ignored
-main.cpp:43:39: warning: null character(s) ignored
-main.cpp:43:43: warning: null character(s) ignored
-main.cpp:43:45: warning: null character(s) ignored
-main.cpp:43:49: warning: null character(s) ignored
-main.cpp:43:51: warning: null character(s) ignored
-main.cpp:43:53: warning: null character(s) ignored
-main.cpp:43:55: warning: null character(s) ignored
-main.cpp:43:59: warning: null character(s) ignored
-main.cpp:43:61: warning: null character(s) ignored
-main.cpp:43:64: warning: null character(s) preserved in literal
-main.cpp:43:87: warning: null character(s) ignored
-main.cpp:43:91: warning: null character(s) ignored
-main.cpp:43:93: warning: null character(s) ignored
-main.cpp:43:97: warning: null character(s) ignored
-main.cpp:43:99: warning: null character(s) ignored
-main.cpp:43:101: warning: null character(s) ignored
-main.cpp:43:103: warning: null character(s) ignored
-main.cpp:43:105: warning: null character(s) ignored
-main.cpp:43:107: warning: null character(s) ignored
-main.cpp:43:109: warning: null character(s) ignored
-main.cpp:43:111: warning: null character(s) ignored
-main.cpp:44:1: warning: null character(s) ignored
-main.cpp:45:1: warning: null character(s) ignored
-main.cpp:46:1: warning: null character(s) ignored
-main.cpp:47:1: warning: null character(s) ignored
-main.cpp:47:5: warning: null character(s) ignored
-main.cpp:47:7: warning: null character(s) ignored
-main.cpp:47:9: warning: null character(s) ignored
-main.cpp:47:11: warning: null character(s) ignored
-main.cpp:47:15: warning: null character(s) ignored
-main.cpp:47:17: warning: null character(s) ignored
-main.cpp:47:19: warning: null character(s) ignored
-main.cpp:47:21: warning: null character(s) ignored
-main.cpp:47:25: warning: null character(s) ignored
-main.cpp:47:29: warning: null character(s) ignored
-main.cpp:47:31: warning: null character(s) ignored
-main.cpp:47:33: warning: null character(s) ignored
-main.cpp:47:37: warning: null character(s) ignored
-main.cpp:47:39: warning: null character(s) ignored
-main.cpp:47:41: warning: null character(s) ignored
-main.cpp:47:43: warning: null character(s) ignored
-main.cpp:48:1: warning: null character(s) ignored
-main.cpp:49:1: warning: null character(s) ignored
-main.cpp:49:5: warning: null character(s) ignored
-main.cpp:49:7: warning: null character(s) ignored
-main.cpp:49:9: warning: null character(s) ignored
-main.cpp:49:11: warning: null character(s) ignored
-main.cpp:49:13: warning: null character(s) ignored
-main.cpp:49:15: warning: null character(s) ignored
-main.cpp:49:19: warning: null character(s) ignored
-main.cpp:49:21: warning: null character(s) ignored
-main.cpp:50:1: warning: null character(s) ignored
-main.cpp:51:1: warning: null character(s) ignored
-main.cpp:51:3: warning: null character(s) ignored
-main.cpp:7:2: error: ‘u’ does not name a type
-  # d e f i n e   _ C R T D B G _ M A P _ A L L O C      
-  ^
-main.cpp:27:2: error: ‘i’ does not name a type
-Compilation Failed 0

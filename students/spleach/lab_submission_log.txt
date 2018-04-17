@@ -1,3 +1,0 @@
-2017-11-28 18:18:49,Lab01,spleach,0,T,(grades.zip),stephenpleach@outlook.com,""
-2017-11-28 18:20:59,Lab01,spleach,0,V,(grades.zip),stephenpleach@outlook.com,""
-2018-01-10 16:27:14,Lab00,spleach,0,V,(hello.zip),sdflj@sfldakj.com,""

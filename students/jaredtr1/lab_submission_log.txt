@@ -1,2 +1,0 @@
-2018-01-10 15:52:02,Lab00,jaredtr1,0,V,(hello.zip),jared.rossberg@gmail.com,""
-2018-01-16 17:42:03,Lab01,jaredtr1,1,V,(grades.zip),jared.rossberg@gmail.com,""

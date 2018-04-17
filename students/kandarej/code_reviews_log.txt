@@ -1,2 +1,0 @@
-2018-01-11 16:02:59,kandarej,L00,V,0,0,000000000,000000,prr5,proper@cs.byu.edu,"I was lucky to draw your submission.  Br. Roper."
-2018-01-11 16:35:30,kandarej,L00,V,0,10,000000000,222202,sputinc,scottjohnstun.personal@gmail.com,"The assignment was to copy  paste Dr. Roper's code and fix the memory leak not just cout Hello World. Also it didn't compile in visual studio without having include stdafx.h at the top but I think that's more of a problem with our submitting system than with the program..."
