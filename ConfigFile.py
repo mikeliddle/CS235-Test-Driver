@@ -11,6 +11,16 @@ class ConfigFile(object):
         self.live_dir = 0
         self.grade_log_file = 0
         self.out_file = 0
+        self.semester = ''
+        self.root_dir = ''
+        self.log_dir = ''
+        self.email_log = ''
+        self.grade_log = ''
+        self.error_log = ''
+        self.debug_log = ''
+        self.compile_log = ''
+        self.compiler = ''
+        self.unzip = ''
         self.file_contents = self.file_object.readline(10000)
 
         # initialize file.
@@ -25,8 +35,17 @@ class ConfigFile(object):
         self.current_line = int(current_line)
         self.log_file_path = self.file_object.readline()[9:].strip('\n')
         self.live_dir = self.file_object.readline()[9:].strip('\n')
-        self.grade_log_file = self.file_object.readline()[10:].strip('\n')
         self.out_file = self.file_object.readline()[9:].strip('\n')
+        self.semester = self.file_object.readline()[9:].strip('\n')
+        self.root_dir = self.file_object.readline()[9:].strip('\n')
+        self.log_dir = self.file_object.readline()[8:].strip('\n')
+        self.email_log = self.file_object.readline()[15:].strip('\n')
+        self.grade_log = self.file_object.readline()[15:].strip('\n')
+        self.error_log = self.file_object.readline()[15:].strip('\n')
+        self.debug_log = self.file_object.readline()[15:].strip('\n')
+        self.compile_log = self.file_object.readline()[17:].strip('\n')
+        self.compiler = self.file_object.readline()[9:].strip('\n')
+        self.unzip = self.file_object.readline()[6:].strip('\n')
 
     # end parse_config_file
 
@@ -58,9 +77,20 @@ class ConfigFile(object):
         str_current_line = 'CURRENT_LINE:' + str(self.current_line)
         str_log_file = 'LOG_FILE:' + str(self.log_file_path)
         str_live_dir = 'LIVE_DIR:' + str(self.live_dir)
-        str_grade_log = 'GRADE_LOG:' + str(self.grade_log_file)
         str_out_file = 'OUT_FILE:' + str(self.out_file)
-        string_to_write = "\n".join([str_current_line, str_log_file, str_live_dir, str_grade_log, str_out_file])
+        str_semester = 'SEMESTER:' + str(self.semester)
+        str_root_dir = 'ROOT_DIR:' + str(self.root_dir)
+        str_log_dir = 'LOG_DIR:' + str(self.log_dir)
+        str_email_log = 'EMAIL_LOG_FILE:' + str(self.email_log)
+        str_grade_log = 'GRADE_LOG:' + str(self.grade_log)
+        str_error_log = 'error_LOG_FILE:' + str(self.error_log)
+        str_debug_log = 'debug_LOG_FILE:' + str(self.debug_log)
+        str_compile_log = 'EMAIL_LOG_FILE:' + str(self.email_log)
+        str_compiler = 'COMPILER:' + str(self.compiler)
+        str_unzip = 'UNZIP:' + str(self.unzip)
+
+        string_to_write = "\n".join([str_current_line, str_log_file, str_live_dir, str_out_file, str_semester, str_root_dir,
+                                     str_log_dir, str_email_log, str_grade_log, str_error_log, str_debug_log, str_compile_log, str_compiler, str_unzip])
 
         self.file_object.write(string_to_write)
 
@@ -77,6 +107,21 @@ class ConfigFile(object):
         self.write_file()
 
     # end __delete__
+
+    def get_email_log(self):
+        return self.root_dir + self.log_dir + self.semester + self.email_log
+
+    def get_grade_log(self):
+        return self.root_dir + self.log_dir + self.semester + self.grade_log
+
+    def get_error_log(self):
+        return self.root_dir + self.log_dir + self.semester + self.error_log
+
+    def get_debug_log(self):
+        return self.root_dir + self.log_dir + self.semester + self.debug_log
+
+    def get_compile_log(self):
+        return self.root_dir + self.log_dir + self.semester + self.compile_log
 
 
 class LogFile(object):
@@ -98,7 +143,7 @@ class LogFile(object):
     # end refresh
 
     def get_line(self, index):
-        if self.refresh() >= 0: 
+        if self.refresh() >= 0:
             return self.file_contents[index].split(',')
         else:
             return -1
@@ -111,6 +156,6 @@ class LogFile(object):
                 return len(self.file_contents)
             else:
                 return 0
-        return 0
+        return -1
 
     # end check_last_line
