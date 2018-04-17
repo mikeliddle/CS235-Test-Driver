@@ -47,6 +47,21 @@
             }
         }
 
+        function get_all_quizzes() {
+            $sql ="
+                SELECT * FROM QUIZ
+            ";
+
+            $ret = $this->query($sql);
+            $results = array();
+            
+            while($row = $ret->fetchArray(SQLITE3_ASSOC) ) {
+                array_push($results, $row);
+            }
+
+            return $results;
+        }
+
         function get_active_quizzes() {
             $sql ="
                 SELECT * FROM QUIZ WHERE QUIZ.ACTIVE=1
