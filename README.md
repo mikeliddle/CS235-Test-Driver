@@ -1,6 +1,6 @@
 # Submission Driver ReadMe
 
-0. SETUP
+## SETUP
 
   1. Naming conventions - We use a naming convention for all folders with content that will
      change from semester to semester.  Every file and folder in question should be prefixed
@@ -23,7 +23,7 @@
   8. Run and test to verify that it is working.
 
 
-1. HISTORY
+## HISTORY
 
 This project was originally conceived to be an automatic grader for CS 235 labs.  Thus, much of
 the project structure was designed focused on that.  The language of choice for much of the 
@@ -39,9 +39,9 @@ scripts, but do, however, nearly the same task as the compile scripts.  The scri
 being run on the ta-3 lab machine by user proper.  This machine may be reached by using ssh to 
 first connect to the CS department, then using ssh to switch to the ta-3 machine.
 
-2. IMPORTANT FILES
+## IMPORTANT FILES
 
-runCompileDriver2.sh
+**RunCompileDriver.sh**
 
   This file checks to see if the file compileDriver.sh is running, and if it is, it will do 
   nothing, otherwise it will run compileDriver.sh in the background.  This file is supposed to 
@@ -62,7 +62,7 @@ runCompileDriver2.sh
   makes sure that it is not grep, but a bash script being run, and even more specifically, being
   run by the specified user.  "$USER" is a global variable declared at the top of the file.  
 
-Compile_Driver.py
+**Compile_Driver.py**
 
   *NOTE: the following was written while this script was in the bash phase.  Most of it is still
   accurate, with only a few exceptions, like the start of paragraph 4.*
@@ -98,7 +98,7 @@ Compile_Driver.py
   other words, this is us uploading a file, not passing a file path. This is all followed by the
   endpoint we are sending the request to.
 
-ConfigFile.py
+**ConfigFile.py**
 
   This file contains two classes: ConfigFile and LogFile.  These are not to be confused with the 
   LogFile class for the grade generator, which has some key differences.  
@@ -110,7 +110,7 @@ ConfigFile.py
   become corrupt by an invalid read, which will then be written and percolated.  For more information 
   refer to the code itself, specifically the constructor (__init__)
 
-compiler_global.cfg
+**compiler_global.cfg**
 
   There are a few lines in this file which should be fairly self-explanatory.  The first line 
   has the current line number, which corresponds to the next line to be read in the log file.
