@@ -1,6 +1,4 @@
-=========================
-Submission Driver ReadMe
-=========================
+# Submission Driver ReadMe
 
 0. SETUP
 
